@@ -1,87 +1,87 @@
 /* Portfolio light UI — consolidated final theme layer */
-:root{color-scheme:light;--bg:#f5f8f3;--panel:#fff;--text:#202e24;--muted:#58675d;--soft:#748176;--green:#527d35;--line:#e0e8dc}
+:root{color-scheme:light;--bg:#DCEAF5;--panel:#FFFFFF;--text:#173B59;--muted:#49677F;--soft:#668096;--green:#256A9A;--line:#C8D9E6}
 html,body{background:var(--bg)!important;color:var(--text)!important}
-body{background:linear-gradient(180deg,#fafcf9 0%,#f2f6ef 100%)!important;-webkit-font-smoothing:antialiased}
+body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webkit-font-smoothing:antialiased}
 .site-header{border-bottom:1px solid var(--line)!important}
-.brand span{color:#203027!important}.brand i{color:var(--green)!important}
-.nav{color:#536257!important}.nav a{color:#536257!important}.nav a:hover,.nav a.active{color:var(--green)!important}
-.nav-contact{color:#34483a!important;border-color:#cbdac2!important}
-.menu-toggle span{background:#26372c!important}
-.hero h1,.section h2,.contact-panel h2{color:#202e24!important}
+.brand span{color:#173B59!important}.brand i{color:var(--green)!important}
+.nav{color:#49677F!important}.nav a{color:#49677F!important}.nav a:hover,.nav a.active{color:var(--green)!important}
+.nav-contact{color:#214F70!important;border-color:#B8D1E3!important}
+.menu-toggle span{background:#173B59!important}
+.hero h1,.section h2,.contact-panel h2{color:#173B59!important}
 .hero h1 em,.section h2 em,.contact-panel h2 em{color:var(--green)!important}
 .eyebrow,.section-kicker,.contact-overline{color:var(--green)!important}
-.intro{color:#59685e!important}.intro span{color:#26372c!important}
-.hero-description,.about-text,.contact-copy{color:#58675d!important}
+.intro{color:#59685e!important}.intro span{color:#173B59!important}
+.hero-description,.about-text,.contact-copy{color:#49677F!important}
 .hero-description strong{color:#2c4031!important}
 .status-dot{background:#6d984d!important;box-shadow:0 0 10px #6d984d55!important}
-.eyebrow-line,.scroll-cue span{background:#9ab68a!important}
-.button-primary{background:#527d35!important;color:#fff!important}
-.button-primary:hover{background:#42692b!important}
-.button-quiet{color:#34483a!important;background:#fff!important;border:1px solid #dbe5d6!important}
+.eyebrow-line,.scroll-cue span{background:#75C8D0!important}
+.button-primary{background:#256A9A!important;color:#FFFFFF!important}
+.button-primary:hover{background:#1D557F!important}
+.button-quiet{color:#214F70!important;background:#FFFFFF!important;border:1px solid #dbe5d6!important}
 .button-quiet span{color:var(--green)!important}
-.meta-number{color:#26372c!important}.meta-label,.scroll-cue{color:#748176!important}
+.meta-number{color:#173B59!important}.meta-label,.scroll-cue{color:#668096!important}
 .ambient{opacity:.07!important}
-.orbit{border-color:#527d3524!important}
-.robot-halo{background:radial-gradient(circle,#dcebd2 0%,#eaf2e5 48%,transparent 72%)!important}
-.robot-orbit{border-color:#8eae7d55!important}
-.robot-caption{background:#ffffffed!important;border:1px solid #dce8d5!important;box-shadow:0 8px 24px #243b2815!important}
-.robot-caption strong{color:#26372c!important}.robot-caption small{color:#6c796e!important}
-.robot-float{background:#fff!important;border:1px solid #dce8d5!important;color:#34483a!important;box-shadow:0 8px 24px #243b2818!important}
+.orbit{border-color:#256A9A24!important}
+.robot-halo{background:radial-gradient(circle,#CDEBF0 0%,#E3F1F8 48%,transparent 72%)!important}
+.robot-orbit{border-color:#75C8D055!important}
+.robot-caption{background:#FFFFFFfffed!important;border:1px solid #C8D9E6!important;box-shadow:0 8px 24px #243b2815!important}
+.robot-caption strong{color:#173B59!important}.robot-caption small{color:#668096!important}
+.robot-float{background:#FFFFFF!important;border:1px solid #C8D9E6!important;color:#214F70!important;box-shadow:0 8px 24px #243b2818!important}
 .robot-float b{color:var(--green)!important}
 .section{border-top:1px solid var(--line)!important}
 .value-strip{border-top-color:var(--line)!important}
 .value-icon,.card-symbol,.cert-check,.edu-year{color:var(--green)!important}
-.value-strip strong,.credentials-layout h3,.education-item strong,.career-achievements h3{color:#26372c!important}
-.value-strip small,.section-title-line>p,.education-item small,.cert-footnote,.achievement-intro{color:#748176!important}
+.value-strip strong,.credentials-layout h3,.education-item strong,.career-achievements h3{color:#173B59!important}
+.value-strip small,.section-title-line>p,.education-item small,.cert-footnote,.achievement-intro{color:#668096!important}
 .professional-journey:before{background:linear-gradient(#8eae7d,#dce8d6)!important}
 .journey-entry{border-bottom:1px solid var(--line)!important}
-.journey-entry:before{background:#f5f8f3!important;border-color:#6d984d!important;box-shadow:0 0 0 4px #6d984d1c!important}
-.journey-company h3{color:#26372c!important}
-.journey-meta{color:#748176!important}
-.journey-date{background:#eaf2e4!important;border:1px solid #dce8d4!important;color:#4d7438!important}
+.journey-entry:before{background:#DCEAF5!important;border-color:#6d984d!important;box-shadow:0 0 0 4px #6d984d1c!important}
+.journey-company h3{color:#173B59!important}
+.journey-meta{color:#668096!important}
+.journey-date{background:#DDF1F3!important;border:1px solid #dce8d4!important;color:#4d7438!important}
 .journey-entry h4{color:#344a37!important}
 .journey-entry ul{color:#59685e!important}
 .journey-entry strong{color:#304634!important}
 .journey-entry li::marker{color:#6d984d!important}
-.journey-brand-ibm{background:#fff!important;border:1px solid #e3e9e0!important}
-.journey-brand-protiviti{background:#f3f5f1!important;border:1px solid #e3e9e0!important}
+.journey-brand-ibm{background:#FFFFFF!important;border:1px solid #D7E4ED!important}
+.journey-brand-protiviti{background:#EDF4F8!important;border:1px solid #D7E4ED!important}
 .career-achievements{border-top-color:var(--line)!important}
 .expertise-card,.achievement-card,.technology-wall,.skill-carousel,.career-summary>div{
- background:linear-gradient(150deg,#fff,#f9fbf7)!important;border:1px solid #e0e8dc!important;
- border-radius:12px!important;box-shadow:0 7px 22px #263d2b0e!important
+ background:linear-gradient(150deg,#FFFFFF,#F8FBFD)!important;border:1px solid #C8D9E6!important;
+ border-radius:12px!important;box-shadow:0 7px 22px #173B590E!important
 }
-.expertise-card{color:#26372c!important}
-.expertise-card h3{color:#26372c!important}
-.expertise-card>p,.technology-wall-heading p,.skill-carousel-subtitle{color:#647367!important}
-.expertise-card:hover,.achievement-card:hover,.technology-logo:hover,.skill-tile:hover{border-color:#b9cda9!important;box-shadow:0 12px 28px #263d2b17!important}
-.card-featured{background:linear-gradient(145deg,#edf5e8,#fff)!important;border-color:#d5e4cb!important}
-.card-count{color:#82917f!important}
-.chip-list span,.role-tags span{background:#f1f5ed!important;border:1px solid #e0e9d9!important;color:#435a43!important;border-radius:999px!important;padding:6px 10px!important}
-.technology-logo{background:#fff!important;border:1px solid #e3eae0!important;color:#35483a!important;border-radius:9px!important}
-.tech-mark{background:#edf4e8!important;color:#527d35!important}
-.skill-carousel{background:linear-gradient(145deg,#fff,#f7faf5)!important}
-.skill-carousel .robot-skill-heading,.robot-skill-heading{color:#527d35!important}
-.skill-count,.skill-carousel-controls{color:#718073!important}
-.skill-tile{background:#f5f8f2!important;border:1px solid #e2e9de!important;color:#35483a!important;border-radius:9px!important}
-.skill-tile span{color:#35483a!important}
-.skill-tile b{background:#eaf2e4!important;color:#527d35!important}
-.skill-progress{background:#e5ebe1!important}.skill-progress span{background:#6c9649!important}
-.skill-carousel-controls button{background:#fff!important;border:1px solid #dce6d7!important;color:#405344!important;border-radius:8px!important}
-.career-summary{background:#e4ebdf!important;border:1px solid #e0e8dc!important}
-.career-number,.achievement-card strong{color:#527d35!important}
-.career-label,.achievement-card span{color:#26372c!important}
-.career-summary small,.achievement-card small{color:#748176!important}
+.expertise-card{color:#173B59!important}
+.expertise-card h3{color:#173B59!important}
+.expertise-card>p,.technology-wall-heading p,.skill-carousel-subtitle{color:#58758B!important}
+.expertise-card:hover,.achievement-card:hover,.technology-logo:hover,.skill-tile:hover{border-color:#9CCBD5!important;box-shadow:0 12px 28px #173B5917!important}
+.card-featured{background:linear-gradient(145deg,#E7F3F8,#FFFFFF)!important;border-color:#C6DFE8!important}
+.card-count{color:#6D899E!important}
+.chip-list span,.role-tags span{background:#EFF6FA!important;border:1px solid #D5E5EE!important;color:#315D7B!important;border-radius:999px!important;padding:6px 10px!important}
+.technology-logo{background:#FFFFFF!important;border:1px solid #D5E5EE!important;color:#214F70!important;border-radius:9px!important}
+.tech-mark{background:#DDF1F3!important;color:#256A9A!important}
+.skill-carousel{background:linear-gradient(145deg,#FFFFFF,#F6FAFC)!important}
+.skill-carousel .robot-skill-heading,.robot-skill-heading{color:#256A9A!important}
+.skill-count,.skill-carousel-controls{color:#668096!important}
+.skill-tile{background:#F1F7FA!important;border:1px solid #D5E5EE!important;color:#214F70!important;border-radius:9px!important}
+.skill-tile span{color:#214F70!important}
+.skill-tile b{background:#DDF1F3!important;color:#256A9A!important}
+.skill-progress{background:#D5E5EE!important}.skill-progress span{background:#48A8B8!important}
+.skill-carousel-controls button{background:#FFFFFF!important;border:1px solid #C8D9E6!important;color:#315D7B!important;border-radius:8px!important}
+.career-summary{background:#E5F0F6!important;border:1px solid #C8D9E6!important}
+.career-number,.achievement-card strong{color:#256A9A!important}
+.career-label,.achievement-card span{color:#173B59!important}
+.career-summary small,.achievement-card small{color:#668096!important}
 .education-item{border-bottom:1px solid var(--line)!important}
 .cert-list>div{color:#46564a!important}
-.contact-panel{background:linear-gradient(125deg,#eaf2e5,#f8faf6 76%)!important;border:1px solid #dce8d4!important;border-radius:16px!important;box-shadow:0 14px 34px #263d2b12!important}
+.contact-panel{background:linear-gradient(125deg,#EAF4F8,#f8faf6 76%)!important;border:1px solid #dce8d4!important;border-radius:16px!important;box-shadow:0 14px 34px #263d2b12!important}
 .contact-panel:after{border-color:#8eae7d33!important;box-shadow:0 0 0 35px #8eae7d0a,0 0 0 70px #8eae7d08!important}
-.contact-links a{color:#34483a!important;border-bottom:1px solid #dce6d8!important}
-.contact-links a span,.contact-links a:hover{color:#527d35!important}
-.contact-email-profile img{border:2px solid #fff!important;box-shadow:0 2px 9px #1e322a29!important}
-.location-line,.footer,.back-top{color:#748176!important}
+.contact-links a{color:#214F70!important;border-bottom:1px solid #C8D9E6!important}
+.contact-links a span,.contact-links a:hover{color:#256A9A!important}
+.contact-email-profile img{border:2px solid #FFFFFF!important;box-shadow:0 2px 9px #173B5929!important}
+.location-line,.footer,.back-top{color:#668096!important}
 .footer{border-top:1px solid var(--line)!important}
 @media(max-width:680px){
- .nav{background:#fff!important;border:1px solid #dce6d8!important;box-shadow:0 12px 28px #23372718!important}
+ .nav{background:#FFFFFF!important;border:1px solid #C8D9E6!important;box-shadow:0 12px 28px #173B5918!important}
  .expertise-card{padding:23px!important}
  .technology-wall{padding:21px!important}
  .journey-company h3{font-size:15px!important}
