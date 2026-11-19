@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=light-polish-20261120">
-  <link rel="stylesheet" href="theme.css?v=protiviti-white-20261120-6">
-  <script defer src="script.js?v=company-toggle-fix-20261120"></script>
+  <link rel="stylesheet" href="theme.css?v=native-company-details-20261120-7">
+  <script defer src="script.js?v=native-company-details-20261120-7"></script>
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
@@ -95,13 +95,13 @@
       <div class="section-title-line"><h2>Experience that <em>delivers.</em></h2><p>7.5+ years across consulting,<br>application development and transformation.</p></div>
 
       <div class="company-list">
-        <div class="company-card">
-          <div class="company-summary">
+        <details class="company-card">
+          <summary class="company-summary">
             <span class="journey-brand journey-brand-ibm" aria-label="IBM"><img src="assets/logos/ibm/IBM-logo.png" alt="IBM logo"></span>
             <span class="company-summary-main"><strong>IBM India Pvt Ltd</strong><span>November 2022 – Present</span><small>Application Developer | Solution Architect</small></span>
-            <button class="company-expand" type="button" aria-expanded="false"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></button>
-          </div>
-          <div class="company-details" hidden>
+            <span class="company-expand"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></span>
+          </summary>
+          <div class="company-details">
             <ul>
               <li>Delivered <strong>Intelligent Automation, Python, Data and Generative AI solutions</strong> for global clients across banking, financial services, utilities and manufacturing.</li>
               <li>Designed and developed enterprise automation solutions using <strong>UiPath, Blue Prism, ServiceNow RPA, Power Automate and SAP iRPA</strong>, covering financial reconciliation, investigations, compliance and business operations.</li>
@@ -113,14 +113,14 @@
               <li>Received <strong>IBM Client &amp; Partner Success Award (2025)</strong> and <strong>FSS – Rewards &amp; Recognition (May 2026)</strong> from RBC (Royal Bank of Canada).</li>
             </ul>
           </div>
-        </div>
-        <div class="company-card">
-          <div class="company-summary">
+        </details>
+        <details class="company-card">
+          <summary class="company-summary">
             <span class="journey-brand journey-brand-protiviti" aria-label="Protiviti"><img src="assets/logos/protiviti/Protiviti-logo.jpg" alt="Protiviti logo"></span>
             <span class="company-summary-main"><strong>Protiviti India Member Private Ltd</strong><span>June 2019 – November 2022</span><small>Consultant 3 | Digital Transformation</small></span>
-            <button class="company-expand" type="button" aria-expanded="false"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></button>
-          </div>
-          <div class="company-details" hidden>
+            <span class="company-expand"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></span>
+          </summary>
+          <div class="company-details">
             <ul>
               <li>Delivered <strong>RPA, Python and Data Automation solutions</strong> for international clients across banking, financial services, telecommunications, media and automotive industries.</li>
               <li>Developed enterprise automation solutions using <strong>UiPath, Blue Prism, Automation Anywhere and SAP iRPA</strong>, covering KYC remediation, financial reconciliation, procurement, reporting and operational processes.</li>
@@ -131,15 +131,15 @@
               <li>Contributed to multiple digital transformation initiatives, improving operational efficiency, data accuracy, process reliability and compliance.</li>
             </ul>
           </div>
-        </div>
+        </details>
 
-        <div class="company-card">
-          <div class="company-summary">
+        <details class="company-card">
+          <summary class="company-summary">
             <span class="journey-brand journey-brand-protiviti" aria-label="Protiviti"><img src="assets/logos/protiviti/Protiviti-logo.jpg" alt="Protiviti logo"></span>
             <span class="company-summary-main"><strong>Protiviti India Member Private Ltd</strong><span>February 2019 – June 2019</span><small>Intern | Digital Transformation</small></span>
-            <button class="company-expand" type="button" aria-expanded="false"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></button>
-          </div>
-          <div class="company-details" hidden>
+            <span class="company-expand"><span class="company-view">View details</span><span class="company-hide">Hide details</span><b aria-hidden="true">⌄</b></span>
+          </summary>
+          <div class="company-details">
             <ul>
               <li>Started professional career in enterprise automation and digital transformation.</li>
               <li>Developed foundational skills in <strong>UiPath RPA, Python programming and SQL</strong>.</li>
@@ -147,7 +147,7 @@
               <li>Gained hands-on experience in process analysis, automation development and enterprise application workflows.</li>
             </ul>
           </div>
-        </div>
+        </details>
       </div>
 
       <div class="career-achievements">
