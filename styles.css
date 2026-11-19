@@ -148,7 +148,7 @@
 .skill-carousel .robot-skill-heading{font:800 9px var(--display);letter-spacing:1.5px;color:var(--green)}
 .skill-carousel-subtitle{font-size:9px;color:#829188}
 .skill-count{font:700 10px var(--display);letter-spacing:1px;color:#87958b}
-.skill-carousel-items{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;min-height:75px}
+.skill-carousel-items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;min-height:75px}
 .skill-tile{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:10px 3px;border:1px solid rgba(221,239,223,.09);border-radius:8px;background:rgba(255,255,255,.035);color:#e9f0e9;animation:skill-enter .45s both;transition:transform .2s,border-color .2s,background .2s}
 .skill-tile:hover{transform:translateY(-3px);border-color:rgba(185,243,106,.4);background:rgba(185,243,106,.07)}
 .skill-tile b{width:29px;height:29px;display:grid;place-items:center;border-radius:8px;background:rgba(185,243,106,.12);color:var(--green);font:800 12px var(--display)}
