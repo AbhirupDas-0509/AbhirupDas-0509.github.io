@@ -217,3 +217,15 @@
 .contact-email-profile .contact-email-text{display:inline-flex;align-items:center;gap:9px}
 .contact-email-profile .contact-email-text b{color:var(--green);font-weight:600}
 @media(max-width:680px){.contact-email-profile img{width:46px;height:46px;flex-basis:46px}}
+
+
+/* Professional Journey: experience metadata and career-wide automation totals */
+.experience-location{color:var(--soft);font-weight:400;font-size:11px}
+.career-achievements{margin-top:10px;padding-top:27px;border-top:1px solid var(--line)}
+.career-achievements h3{font:700 14px var(--display);margin:0 0 17px;color:#e9f0e9}
+.achievement-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.achievement-card{min-height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:13px 10px;border:1px solid rgba(222,239,226,.18);border-radius:9px;background:rgba(255,255,255,.025);text-align:center}
+.achievement-card strong{font:800 22px/1.2 var(--display);color:var(--green)}
+.achievement-card span{font:600 12px var(--display);color:#e9f0e9;margin-top:8px}
+.achievement-card small{font-size:10px;color:var(--soft);margin-top:2px}
+@media(max-width:680px){.achievement-grid{gap:8px}.achievement-card{min-height:88px;padding:10px 5px}.achievement-card strong{font-size:20px}.achievement-card span{font-size:10px}.achievement-card small{font-size:9px}}
