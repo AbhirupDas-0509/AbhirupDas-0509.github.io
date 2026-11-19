@@ -229,3 +229,30 @@
 .achievement-card span{font:600 12px var(--display);color:#e9f0e9;margin-top:8px}
 .achievement-card small{font-size:10px;color:var(--soft);margin-top:2px}
 @media(max-width:680px){.achievement-grid{gap:8px}.achievement-card{min-height:88px;padding:10px 5px}.achievement-card strong{font-size:20px}.achievement-card span{font-size:10px}.achievement-card small{font-size:9px}}
+
+
+/* Refined Professional Journey layout */
+.professional-journey{max-width:100%;padding:0 12px}
+.journey-entry{padding:0 0 30px;margin:0 0 27px;border-bottom:1px solid var(--line)}
+.journey-company{display:flex;align-items:baseline;gap:8px;margin-bottom:13px}
+.journey-number{font:700 17px var(--display);color:var(--green)}
+.journey-company h3{font:700 17px var(--display);letter-spacing:-.25px;margin:0;color:var(--text)}
+.journey-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:17px;color:var(--soft);font-size:11px}
+.journey-date{display:inline-flex;align-items:center;padding:4px 9px;border-radius:20px;background:rgba(185,243,106,.13);color:var(--green);font-weight:700}
+.journey-entry h4{font:700 15px var(--display);margin:0 0 16px;color:var(--text)}
+.journey-focus{font-size:13px;font-style:italic;color:#d4ded5;margin:0 0 12px}
+.journey-entry ul{padding-left:27px;margin:0;color:var(--muted);font-size:13px;line-height:1.75}
+.journey-entry li{padding-left:3px;margin:2px 0 3px}
+.journey-entry li::marker{color:var(--green)}
+.journey-entry strong{color:#e9f0e9;font-weight:700}
+.career-achievements{margin-top:30px;padding-top:27px;border-top:1px solid var(--line)}
+.career-achievements h3{font:700 16px var(--display);margin:0 0 5px;color:var(--text)}
+.achievement-intro{font-size:12px;color:var(--soft);margin:0 0 18px}
+.achievement-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.achievement-card{min-height:112px;align-items:flex-start;justify-content:center;padding:15px 16px;text-align:left;border:1px solid rgba(222,239,226,.16);border-radius:10px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012));transition:border-color .2s,transform .2s}
+.achievement-card:hover{border-color:rgba(185,243,106,.4);transform:translateY(-2px)}
+.achievement-card strong{font:800 23px/1.2 var(--display);color:var(--green)}
+.achievement-card span{font:700 13px var(--display);color:var(--text);margin-top:7px}
+.achievement-card small{font-size:11px;line-height:1.45;color:var(--soft);margin-top:3px}
+@media(max-width:680px){.professional-journey{padding:0}.journey-entry{padding-bottom:23px;margin-bottom:22px}.journey-company h3{font-size:15px}.journey-entry ul{font-size:12px;line-height:1.7;padding-left:22px}.journey-focus{font-size:12px}.achievement-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.achievement-card{min-height:105px;padding:12px 11px}.achievement-card strong{font-size:21px}.achievement-card span{font-size:11px}.achievement-card small{font-size:10px}}
+@media(max-width:380px){.achievement-grid{grid-template-columns:1fr}.journey-meta{gap:7px}}
