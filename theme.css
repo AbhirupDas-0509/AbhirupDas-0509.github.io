@@ -194,3 +194,27 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 /* Hero profile copy with clear paragraph spacing */
 .hero-description p{margin:0 0 13px}
 .hero-description p:last-child{margin-bottom:0}
+
+
+/* Refined hero headline typography to match the clean blue portfolio UI */
+.hero h1{
+  font-family:'Manrope',sans-serif!important;
+  font-size:clamp(42px,4.8vw,62px)!important;
+  font-weight:800!important;
+  line-height:1.08!important;
+  letter-spacing:-2.8px!important;
+  color:#173B59!important;
+  text-wrap:balance;
+}
+.hero h1 em{
+  display:inline;
+  font-style:normal!important;
+  font-weight:800!important;
+  color:#256A9A!important;
+}
+@media(max-width:900px){
+  .hero h1{font-size:clamp(40px,5.5vw,54px)!important;letter-spacing:-2.2px!important}
+}
+@media(max-width:680px){
+  .hero h1{font-size:clamp(36px,10.2vw,48px)!important;line-height:1.1!important;letter-spacing:-1.8px!important}
+}
