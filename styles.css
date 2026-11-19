@@ -98,3 +98,39 @@
  .robot-servicenow,.robot-power{display:none}
  .robot-float{font-size:9px;padding:7px 9px;gap:6px}
 }
+
+/* Two focused technology columns flanking the hero robot */
+.robot-visual{width:100%;min-height:500px;display:flex;align-items:center;justify-content:center}
+.robot-stage{width:360px;max-width:58%;height:465px;flex:0 0 auto}
+.robot-skill-panel{position:absolute;z-index:4;top:50%;transform:translateY(-50%);width:174px;display:flex;flex-direction:column;gap:9px;padding:13px;border:1px solid rgba(185,243,106,.2);border-radius:9px;background:linear-gradient(145deg,rgba(22,34,27,.94),rgba(13,21,17,.94));box-shadow:0 18px 38px rgba(0,0,0,.2);backdrop-filter:blur(12px)}
+.ai-skill-panel{left:0}
+.automation-skill-panel{right:0;width:190px}
+.robot-skill-heading{font:800 9px var(--display);letter-spacing:1.3px;color:var(--green);padding:1px 2px 7px;border-bottom:1px solid rgba(185,243,106,.16);line-height:1.5}
+.robot-skill-chip{min-height:34px;display:flex;align-items:center;gap:9px;padding:7px 8px;border:1px solid rgba(220,239,222,.09);border-radius:6px;background:rgba(255,255,255,.025);color:#e6eee6;font:600 10px var(--display);white-space:nowrap}
+.robot-skill-chip b{width:22px;height:22px;flex:0 0 22px;display:grid;place-items:center;border-radius:5px;background:rgba(185,243,106,.1);color:var(--green);font-size:10px}
+.robot-caption{bottom:0}
+@media(max-width:1100px){
+ .robot-stage{width:330px;max-width:55%}
+ .robot-skill-panel{width:150px;padding:10px;gap:7px}
+ .automation-skill-panel{width:164px}
+ .robot-skill-chip{font-size:9px;gap:7px;padding:6px}
+}
+@media(max-width:900px){
+ .robot-visual{min-height:470px}
+ .robot-stage{width:310px;max-width:52%;height:420px}
+ .robot-skill-panel{width:135px;padding:8px}
+ .automation-skill-panel{width:145px}
+ .robot-skill-chip{font-size:8px;min-height:31px}
+ .robot-skill-heading{font-size:8px;letter-spacing:.8px}
+}
+@media(max-width:680px){
+ .robot-visual{height:auto;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px;padding-top:0}
+ .robot-stage{grid-column:1/-1;grid-row:1;width:100%;max-width:100%;height:350px}
+ .robot-skill-panel{position:relative;top:auto;left:auto;right:auto;transform:none;width:auto;padding:10px;gap:7px}
+ .ai-skill-panel{grid-column:1;grid-row:2}
+ .automation-skill-panel{grid-column:2;grid-row:2;width:auto}
+ .robot-skill-chip{font-size:9px;white-space:normal;min-height:35px}
+ .robot-skill-heading{font-size:8px;min-height:30px}
+ .robot-caption{bottom:0}
+}
+@media(max-width:390px){.robot-skill-chip{font-size:8px;gap:5px;padding:6px 5px}.robot-skill-chip b{width:19px;height:19px;flex-basis:19px}}
