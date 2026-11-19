@@ -341,3 +341,9 @@
 /* IBM logo: use a clean white tile so the dark logo artwork has proper contrast */
 .journey-brand-ibm{background:#fff!important;border:1px solid rgba(255,255,255,.28)!important;border-radius:6px!important;padding:4px!important;overflow:hidden!important}
 .journey-brand-ibm img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;filter:none!important;mix-blend-mode:normal!important;opacity:1!important;padding:2px!important}
+
+
+/* IBM mark: fill the white logo tile neatly without distorting the artwork */
+.journey-brand-ibm{width:54px!important;height:34px!important;flex:0 0 54px!important;box-sizing:border-box!important;padding:2px!important;background:#fff!important;border:1px solid rgba(255,255,255,.28)!important;border-radius:6px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.journey-brand-ibm img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;padding:0!important;margin:0!important;filter:none!important;mix-blend-mode:normal!important;opacity:1!important}
+@media(max-width:680px){.journey-brand-ibm{width:46px!important;height:31px!important;flex-basis:46px!important}}
