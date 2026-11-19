@@ -297,3 +297,14 @@
  .career-achievements{margin-left:0}
  .experience-section .section-title-line{margin-bottom:30px}
 }
+
+
+/* Brand marks tuned to the dark portfolio palette; timeline dots replace entry numbering */
+.journey-company{gap:13px;align-items:center}
+.journey-company .journey-number{display:none!important}
+.journey-logo{width:48px;height:32px;flex:0 0 48px;padding:0;background:transparent;border:0;border-radius:0;overflow:visible}
+.journey-logo img{display:block;width:100%;height:100%;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.78}
+.journey-company h3{font-size:17px;letter-spacing:-.2px}
+.journey-entry:before{width:9px;height:9px;left:-33px;top:10px;background:var(--bg);border:2px solid var(--green);box-shadow:0 0 0 4px rgba(185,243,106,.08),0 0 12px rgba(185,243,106,.18)}
+.professional-journey:before{left:10px;width:1px;background:linear-gradient(to bottom,rgba(185,243,106,.55),rgba(185,243,106,.08))}
+@media(max-width:680px){.journey-logo{width:42px;height:29px;flex-basis:42px}.journey-company h3{font-size:14px}.journey-entry:before{left:-26px}}
