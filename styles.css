@@ -181,3 +181,8 @@
 .about-profile img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 22%}
 @media(max-width:900px){.section-heading-row{grid-template-columns:1fr 1fr}.about-profile{grid-column:2;grid-row:2;width:190px;height:225px}}
 @media(max-width:680px){.section-heading-row{grid-template-columns:1fr}.about-profile{grid-column:1;grid-row:auto;justify-self:start;width:190px;height:225px;margin-top:5px}}
+
+/* Ensure uploaded company logos render clearly in every experience entry */
+.company-heading .company-mark{width:64px;height:52px;flex:0 0 64px;padding:5px;background:#fff;border:1px solid rgba(255,255,255,.25);border-radius:6px;overflow:hidden}
+.company-heading .company-mark img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;padding:0!important;opacity:1!important;visibility:visible!important}
+@media(max-width:680px){.company-heading .company-mark{width:52px;height:46px;flex-basis:52px}}
