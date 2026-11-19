@@ -332,3 +332,7 @@
 /* Protiviti logo: blend the JPG's white canvas into the dark timeline UI */
 .journey-brand-protiviti{background:transparent;border-color:rgba(255,255,255,.08);padding:2px}
 .journey-brand-protiviti img{mix-blend-mode:darken;object-fit:contain;padding:1px}
+
+/* Final Protiviti logo correction: keep the source artwork visible on a compact neutral tile */
+.journey-brand-protiviti{background:#f3f5f1!important;border:1px solid rgba(255,255,255,.16)!important;border-radius:6px!important;padding:3px!important;overflow:hidden!important}
+.journey-brand-protiviti img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;mix-blend-mode:normal!important;filter:none!important;opacity:1!important;padding:0!important}
