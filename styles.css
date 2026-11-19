@@ -76,3 +76,25 @@
 .claude-logo .tech-mark{background:#423126;color:#f1b98d}
 @media(max-width:900px){.technology-logo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.technology-wall{padding:25px}}
 @media(max-width:680px){.technology-wall{margin-top:42px;padding:21px 16px}.technology-wall-heading{display:block}.technology-wall-heading p{margin-top:9px;font-size:12px}.technology-logo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.technology-logo{min-height:65px;padding:10px 9px;font-size:10px;gap:8px}.tech-mark{width:29px;height:29px;flex-basis:29px}}
+
+/* Six featured skills orbiting the hero robot */
+.robot-python{top:68px;left:-12px}
+.robot-uipath{top:132px;right:-13px}
+.robot-blueprism{top:238px;right:-28px}
+.robot-servicenow{bottom:142px;left:-42px}
+.robot-power{bottom:75px;left:5px}
+.robot-ai{bottom:75px;right:-12px}
+.robot-blueprism b{color:#83c9ee}
+.robot-servicenow b{color:#7ee0b1}
+.robot-power b{color:#f4d45e}
+@media(max-width:900px){
+ .robot-python{left:-2px;top:55px}.robot-uipath{right:-4px;top:112px}
+ .robot-blueprism{right:-6px;top:220px}.robot-servicenow{left:-8px;bottom:140px}
+ .robot-power{left:10px;bottom:65px}.robot-ai{right:5px;bottom:65px}
+}
+@media(max-width:680px){
+ .robot-python{left:0;top:24px}.robot-uipath{right:0;top:24px}
+ .robot-blueprism{right:0;top:105px}.robot-ai{left:0;right:auto;bottom:65px}
+ .robot-servicenow,.robot-power{display:none}
+ .robot-float{font-size:9px;padding:7px 9px;gap:6px}
+}
