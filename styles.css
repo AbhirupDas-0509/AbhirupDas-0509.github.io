@@ -256,3 +256,13 @@
 .achievement-card small{font-size:11px;line-height:1.45;color:var(--soft);margin-top:3px}
 @media(max-width:680px){.professional-journey{padding:0}.journey-entry{padding-bottom:23px;margin-bottom:22px}.journey-company h3{font-size:15px}.journey-entry ul{font-size:12px;line-height:1.7;padding-left:22px}.journey-focus{font-size:12px}.achievement-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.achievement-card{min-height:105px;padding:12px 11px}.achievement-card strong{font-size:21px}.achievement-card span{font-size:11px}.achievement-card small{font-size:10px}}
 @media(max-width:380px){.achievement-grid{grid-template-columns:1fr}.journey-meta{gap:7px}}
+
+
+/* Company logos in the Professional Journey headings */
+.journey-company{display:flex;align-items:center;gap:11px;margin-bottom:13px}
+.journey-company .journey-number{flex:0 0 auto}
+.journey-logo{width:58px;height:38px;flex:0 0 58px;display:flex;align-items:center;justify-content:center;padding:4px 7px;background:#fff;border:1px solid rgba(255,255,255,.24);border-radius:5px;overflow:hidden}
+.journey-logo img{display:block;width:100%;height:100%;object-fit:contain}
+.journey-company h3{margin:0}
+.journey-focus{display:none!important}
+@media(max-width:680px){.journey-logo{width:50px;height:34px;flex-basis:50px;padding:4px 6px}.journey-company{gap:8px}.journey-company h3{font-size:14px}}
