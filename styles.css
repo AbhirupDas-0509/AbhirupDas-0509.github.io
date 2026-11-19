@@ -347,3 +347,111 @@
 .journey-brand-ibm{width:54px!important;height:34px!important;flex:0 0 54px!important;box-sizing:border-box!important;padding:2px!important;background:#fff!important;border:1px solid rgba(255,255,255,.28)!important;border-radius:6px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
 .journey-brand-ibm img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;padding:0!important;margin:0!important;filter:none!important;mix-blend-mode:normal!important;opacity:1!important}
 @media(max-width:680px){.journey-brand-ibm{width:46px!important;height:31px!important;flex-basis:46px!important}}
+
+
+/* =========================================================
+   MODERN LIGHT THEME — full-site visual refresh
+   Preserve existing content, structure, robot artwork and responsive layout.
+   ========================================================= */
+:root{
+  --bg:#f4f7f2;
+  --panel:#ffffff;
+  --text:#1d2b22;
+  --muted:#59685e;
+  --soft:#78857b;
+  --green:#527d35;
+  --line:rgba(34,58,40,.13);
+}
+html,body{background:#f4f7f2!important;color:#1d2b22!important}
+body{background:linear-gradient(180deg,#f8faf7 0%,#f1f5ef 100%)!important}
+.site-header{border-bottom-color:rgba(34,58,40,.12)!important}
+.brand span{color:#1d2b22!important}.brand i{color:#5d873e!important}
+.nav{color:#536257!important}.nav a:hover,.nav a.active{color:#47752f!important}
+.nav-contact{border-color:rgba(82,125,53,.38)!important;color:#29402d!important}
+.eyebrow,.section-kicker,.contact-overline{color:#527d35!important}
+.status-dot{background:#6d9b48!important;box-shadow:0 0 10px rgba(109,155,72,.35)!important}
+.eyebrow-line{background:rgba(82,125,53,.35)!important}
+.intro{color:#5b695f!important}.intro span{color:#26372b!important}
+.hero h1,.section h2,.contact-panel h2{color:#1e2d23!important}
+.hero h1 em,.section h2 em,.contact-panel h2 em{color:#5b843d!important}
+.hero-description{color:#59685e!important}.hero-description strong{color:#293a2e!important}
+.button-primary{background:#5e873e!important;color:#fff!important}.button-primary:hover{background:#4d7332!important}
+.button-quiet{border-color:rgba(34,58,40,.2)!important;color:#2c3b30!important}
+.button-quiet span{color:#5b843d!important}
+.meta-number{color:#26372b!important}.meta-label,.scroll-cue{color:#78857b!important}
+.scroll-cue span{background:#6b934a!important}
+.ambient{opacity:.09!important}.ambient-one{background:#8dbb70!important}.ambient-two{background:#8bb7a0!important}
+.portrait-glow{background:rgba(126,169,95,.14)!important}
+.orbit{border-color:rgba(82,125,53,.15)!important}
+.float-tag{background:#fff!important;border:1px solid rgba(34,58,40,.13)!important;color:#2b3c30!important;box-shadow:0 10px 28px rgba(31,51,36,.1)!important}
+.float-tag span{color:#5b843d!important}
+.section{border-top-color:rgba(34,58,40,.12)!important}
+.about-text{color:#59685e!important}
+.value-strip{border-top-color:rgba(34,58,40,.13)!important}
+.value-icon{color:#5b843d!important}.value-strip strong{color:#293a2e!important}.value-strip small{color:#78857b!important}
+.section-title-line>p{color:#78857b!important}
+.timeline-date,.journey-meta,.experience-location{color:#78857b!important}
+.timeline-marker{border-left-color:rgba(82,125,53,.32)!important}
+.timeline-marker:before{background:#5e873e!important;box-shadow:0 0 0 5px rgba(94,135,62,.12)!important}
+.timeline-content h3,.journey-company h3,.journey-entry h4{color:#223328!important}
+.company,.journey-date{color:#4d7834!important}
+.journey-date{background:#e7efdf!important}
+.timeline-content>p,.timeline-content li,.journey-entry ul{color:#59685e!important}
+.journey-focus{color:#526257!important}
+.timeline-content li::marker,.journey-entry li::marker{color:#638a43!important}
+.award-note{border-color:rgba(82,125,53,.22)!important;color:#435b3e!important}
+.award-note span{color:#5b843d!important}
+.expertise-card,.career-summary>div,.technology-wall,.skill-carousel{
+  background:#fff!important;border-color:rgba(34,58,40,.13)!important;
+  box-shadow:0 10px 28px rgba(37,57,41,.045)!important
+}
+.expertise-card:hover,.achievement-card:hover{border-color:rgba(82,125,53,.38)!important}
+.card-featured{background:linear-gradient(145deg,#f1f6ec,#fff)!important}
+.card-symbol,.card-count{color:#5b843d!important}
+.expertise-card h3{color:#26372b!important}
+.expertise-card>p,.technology-wall-heading p,.skill-carousel-subtitle{color:#68776c!important}
+.chip-list span{color:#45564a!important;border-color:rgba(34,58,40,.15)!important;background:#f6f8f4!important}
+.career-summary{background:rgba(34,58,40,.12)!important;border-color:rgba(34,58,40,.12)!important}
+.career-number{color:#5b843d!important}.career-label{color:#26372b!important}.career-summary small{color:#78857b!important}
+.role-intro{color:#526257!important}
+.role-tags span{color:#4e7737!important;background:#edf4e8!important;border-color:#d9e6d0!important}
+.technology-logo{background:#f8faf7!important;border-color:rgba(34,58,40,.12)!important;color:#334438!important}
+.technology-logo:hover{border-color:rgba(82,125,53,.38)!important;background:#eef5e9!important}
+.robot-skill-panel{background:rgba(255,255,255,.96)!important;border-color:rgba(34,58,40,.14)!important;box-shadow:0 16px 38px rgba(35,55,39,.12)!important}
+.robot-skill-heading{color:#527d35!important;border-bottom-color:rgba(82,125,53,.18)!important}
+.robot-skill-chip{background:#f7f9f5!important;border-color:rgba(34,58,40,.11)!important;color:#334438!important}
+.robot-skill-chip b,.skill-tile b{background:#eaf2e4!important;color:#527d35!important}
+.skill-carousel{background:linear-gradient(145deg,#fff,#f7faf5)!important;border-color:rgba(82,125,53,.2)!important;backdrop-filter:blur(12px)}
+.skill-carousel .robot-skill-heading{color:#527d35!important}
+.skill-count,.skill-carousel-controls{color:#78857b!important}
+.skill-tile{background:#f7f9f5!important;border-color:rgba(34,58,40,.12)!important;color:#334438!important}
+.skill-tile:hover{border-color:rgba(82,125,53,.4)!important;background:#eef5e9!important}
+.skill-progress{background:#e5ebe1!important}.skill-progress span{background:#6c9649!important}
+.skill-carousel-controls button{background:#fff!important;border-color:rgba(34,58,40,.17)!important;color:#334438!important}
+.skill-carousel-controls button:hover{border-color:#5b843d!important;color:#527d35!important}
+.credentials-layout h3{color:#26372b!important}
+.education-item{border-bottom-color:rgba(34,58,40,.13)!important}
+.edu-year,.cert-check{color:#5b843d!important}
+.education-item strong,.cert-list>div{color:#3d4e42!important}
+.education-item small,.cert-footnote{color:#78857b!important}
+.contact-panel{background:linear-gradient(120deg,#e8f0e2,#f8faf6 72%)!important;border-color:rgba(82,125,53,.2)!important;box-shadow:0 14px 38px rgba(37,57,41,.06)!important}
+.contact-panel:after{border-color:rgba(82,125,53,.12)!important;box-shadow:0 0 0 35px rgba(82,125,53,.025),0 0 0 70px rgba(82,125,53,.018)!important}
+.contact-copy{color:#59685e!important}
+.contact-links a{color:#34463a!important;border-bottom-color:rgba(34,58,40,.14)!important}
+.contact-links a:hover,.contact-links a span{color:#527d35!important}
+.location-line,.footer,.back-top{color:#78857b!important}
+.footer{border-top-color:rgba(34,58,40,.12)!important}
+.company-mark{background:#fff!important}
+.robot-caption{background:rgba(255,255,255,.94)!important;border-color:rgba(82,125,53,.2)!important}
+.robot-caption strong{color:#26372b!important}.robot-caption small{color:#68776c!important}
+.robot-float{background:rgba(255,255,255,.96)!important;border-color:rgba(82,125,53,.22)!important;color:#34463a!important;box-shadow:0 12px 28px rgba(35,55,39,.12)!important}
+.robot-float b{color:#527d35!important}
+.achievement-card{background:linear-gradient(145deg,#fff,#f7faf5)!important;border-color:rgba(34,58,40,.14)!important}
+.achievement-card strong{color:#5b843d!important}.achievement-card span{color:#26372b!important}.achievement-card small,.achievement-intro{color:#78857b!important}
+.career-achievements h3{color:#26372b!important}
+.journey-brand-ibm{background:#fff!important}
+.journey-brand-protiviti{background:#f3f5f1!important}
+@media(max-width:680px){
+ .nav{background:#fff!important;border-color:rgba(34,58,40,.14)!important;box-shadow:0 12px 28px rgba(35,55,39,.1)!important}
+ .menu-toggle span{background:#26372b!important}
+}
