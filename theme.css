@@ -12,8 +12,8 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .eyebrow,.section-kicker,.contact-overline{color:var(--green)!important}
 .intro{color:#59685e!important}.intro span{color:#173B59!important}
 .hero-description,.about-text,.contact-copy{color:#49677F!important}
-.hero-description strong{color:#2c4031!important}
-.status-dot{background:#6d984d!important;box-shadow:0 0 10px #6d984d55!important}
+.hero-description strong{color:#214F70!important}
+.status-dot{background:#256A9A!important;box-shadow:0 0 10px #256A9A55!important}
 .eyebrow-line,.scroll-cue span{background:#75C8D0!important}
 .button-primary{background:#256A9A!important;color:#FFFFFF!important}
 .button-primary:hover{background:#1D557F!important}
@@ -33,16 +33,16 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .value-icon,.card-symbol,.cert-check,.edu-year{color:var(--green)!important}
 .value-strip strong,.credentials-layout h3,.education-item strong,.career-achievements h3{color:#173B59!important}
 .value-strip small,.section-title-line>p,.education-item small,.cert-footnote,.achievement-intro{color:#668096!important}
-.professional-journey:before{background:linear-gradient(#8eae7d,#dce8d6)!important}
+.professional-journey:before{background:linear-gradient(#75C8D0,#C8D9E6)!important}
 .journey-entry{border-bottom:1px solid var(--line)!important}
-.journey-entry:before{background:#DCEAF5!important;border-color:#6d984d!important;box-shadow:0 0 0 4px #6d984d1c!important}
+.journey-entry:before{background:#DCEAF5!important;border-color:#256A9A!important;box-shadow:0 0 0 4px #256A9A1c!important}
 .journey-company h3{color:#173B59!important}
 .journey-meta{color:#668096!important}
-.journey-date{background:#DDF1F3!important;border:1px solid #dce8d4!important;color:#4d7438!important}
-.journey-entry h4{color:#344a37!important}
+.journey-date{background:#DDF1F3!important;border:1px solid #C8D9E6!important;color:#256A9A!important}
+.journey-entry h4{color:#214F70!important}
 .journey-entry ul{color:#59685e!important}
-.journey-entry strong{color:#304634!important}
-.journey-entry li::marker{color:#6d984d!important}
+.journey-entry strong{color:#214F70!important}
+.journey-entry li::marker{color:#256A9A!important}
 .journey-brand-ibm{background:#FFFFFF!important;border:1px solid #D7E4ED!important}
 .journey-brand-protiviti{background:#EDF4F8!important;border:1px solid #D7E4ED!important}
 .career-achievements{border-top-color:var(--line)!important}
@@ -73,8 +73,8 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .career-summary small,.achievement-card small{color:#668096!important}
 .education-item{border-bottom:1px solid var(--line)!important}
 .cert-list>div{color:#46564a!important}
-.contact-panel{background:linear-gradient(125deg,#EAF4F8,#f8faf6 76%)!important;border:1px solid #dce8d4!important;border-radius:16px!important;box-shadow:0 14px 34px #263d2b12!important}
-.contact-panel:after{border-color:#8eae7d33!important;box-shadow:0 0 0 35px #8eae7d0a,0 0 0 70px #8eae7d08!important}
+.contact-panel{background:linear-gradient(125deg,#EAF4F8,#f8faf6 76%)!important;border:1px solid #C8D9E6!important;border-radius:16px!important;box-shadow:0 14px 34px #263d2b12!important}
+.contact-panel:after{border-color:#75C8D033!important;box-shadow:0 0 0 35px #75C8D00a,0 0 0 70px #75C8D008!important}
 .contact-links a{color:#214F70!important;border-bottom:1px solid #C8D9E6!important}
 .contact-links a span,.contact-links a:hover{color:#256A9A!important}
 .contact-email-profile img{border:2px solid #FFFFFF!important;box-shadow:0 2px 9px #173B5929!important}
