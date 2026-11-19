@@ -209,3 +209,11 @@
 .hero-profile-stage .robot-caption small{font-size:8px!important}
 @media(max-width:900px){.hero-profile-stage{height:auto!important;flex-basis:auto!important}.hero-profile-photo{width:138px!important;height:138px!important}}
 @media(max-width:680px){.hero-profile-stage{height:auto!important;flex-basis:auto!important;width:100%!important;margin:14px auto 8px!important}.hero-profile-photo{width:122px!important;height:122px!important}}
+
+
+/* Small personal photo beside the email at the end of the portfolio */
+.contact-email-profile{display:flex!important;align-items:center;gap:13px!important}
+.contact-email-profile img{width:54px;height:54px;flex:0 0 54px;display:block;object-fit:cover;object-position:center 22%;border-radius:50%;border:2px solid rgba(185,243,106,.5);box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.contact-email-profile .contact-email-text{display:inline-flex;align-items:center;gap:9px}
+.contact-email-profile .contact-email-text b{color:var(--green);font-weight:600}
+@media(max-width:680px){.contact-email-profile img{width:46px;height:46px;flex-basis:46px}}
