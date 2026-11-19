@@ -455,3 +455,118 @@ body{background:linear-gradient(180deg,#f8faf7 0%,#f1f5ef 100%)!important}
  .nav{background:#fff!important;border-color:rgba(34,58,40,.14)!important;box-shadow:0 12px 28px rgba(35,55,39,.1)!important}
  .menu-toggle span{background:#26372b!important}
 }
+
+
+/* =========================================================
+   MODERN LIGHT THEME — typography, contrast and card refinement
+   ========================================================= */
+:root{
+  --bg:#f4f7f2;
+  --panel:#ffffff;
+  --text:#203027;
+  --muted:#58685d;
+  --soft:#748176;
+  --green:#527d35;
+  --line:rgba(37,61,43,.14);
+}
+body{color:#26372c!important;-webkit-font-smoothing:antialiased}
+p,li{ text-wrap:pretty }
+.hero h1,.section h2,.contact-panel h2{color:#1d2c22!important;text-wrap:balance}
+.hero h1 em,.section h2 em,.contact-panel h2 em{color:#527d35!important}
+.intro,.hero-description,.about-text,.timeline-content>p,.timeline-content li,
+.journey-entry ul,.expertise-card>p,.contact-copy{color:#59685e!important}
+.hero-description strong,.journey-entry strong{color:#2e4233!important}
+.nav a,.button-quiet,.contact-links a{color:#35483a!important}
+.nav a:hover,.nav a.active,.contact-links a:hover{color:#527d35!important}
+.section-kicker,.eyebrow,.contact-overline{color:#527d35!important}
+.meta-number,.value-strip strong,.credentials-layout h3,.education-item strong,
+.cert-list>div,.career-achievements h3,.journey-company h3,.journey-entry h4,
+.expertise-card h3{color:#26372c!important}
+.meta-label,.section-title-line>p,.value-strip small,.journey-meta,
+.education-item small,.cert-footnote,.achievement-intro,.achievement-card small,
+.footer,.back-top,.location-line{color:#748176!important}
+
+/* Consistent white surfaces with soft green tint and subtle elevation */
+.expertise-card,.achievement-card,.technology-wall,.skill-carousel,
+.robot-skill-panel,.career-summary>div{
+  background:linear-gradient(155deg,#ffffff 0%,#f9fbf7 100%)!important;
+  border:1px solid #e0e8dc!important;
+  border-radius:12px!important;
+  box-shadow:0 7px 22px rgba(38,61,43,.055)!important;
+}
+.expertise-card{padding:29px 30px 31px}
+.expertise-card:hover,.achievement-card:hover,.technology-logo:hover,.skill-tile:hover{
+  border-color:#b9cda9!important;
+  box-shadow:0 12px 28px rgba(38,61,43,.09)!important;
+}
+.card-featured{background:linear-gradient(145deg,#edf5e8 0%,#fff 78%)!important;border-color:#d5e4cb!important}
+.card-count{color:#82917f!important}
+.chip-list{gap:8px}
+.chip-list span,.role-tags span{
+  background:#f1f5ed!important;
+  border:1px solid #e0e9d9!important;
+  color:#435a43!important;
+  border-radius:999px!important;
+  padding:6px 10px!important;
+  font-size:10px!important;
+}
+.role-tags span{background:#edf4e8!important;color:#4b7138!important}
+.technology-wall{padding:30px!important}
+.technology-wall-heading p{color:#647367!important}
+.technology-wall-heading p em{color:#527d35!important}
+.technology-logo{border-radius:9px!important;background:#fff!important;border-color:#e3eae0!important;color:#35483a!important}
+.tech-mark{background:#edf4e8!important;color:#527d35!important;border-radius:9px!important}
+.skill-carousel{border-radius:13px!important}
+.skill-carousel-subtitle{color:#718073!important}
+.skill-tile{border-radius:9px!important;background:#f5f8f2!important;border-color:#e2e9de!important;color:#35483a!important}
+.skill-tile span{color:#35483a!important}
+.skill-count,.skill-carousel-controls{color:#718073!important}
+.skill-carousel-controls button{border-radius:8px!important;background:#fff!important;border-color:#dce6d7!important;color:#405344!important}
+
+/* Career timeline and achievement cards */
+.professional-journey:before{background:linear-gradient(to bottom,#9fbd8c,rgba(159,189,140,.18))!important}
+.journey-entry{border-bottom-color:#e0e8dc!important}
+.journey-entry:before{background:#f4f7f2!important;border-color:#6d984d!important;box-shadow:0 0 0 4px rgba(109,152,77,.1)!important}
+.journey-company h3{font-size:18px!important;color:#26372c!important}
+.journey-meta{color:#748176!important}
+.journey-date{background:#eaf2e4!important;color:#4d7438!important;border:1px solid #dce8d4!important}
+.journey-entry h4{color:#344a37!important}
+.journey-entry ul{color:#59685e!important}
+.journey-entry strong{color:#304634!important}
+.journey-entry li::marker{color:#6d984d!important}
+.journey-brand{border-radius:7px!important;box-shadow:0 2px 7px rgba(30,50,34,.08)!important}
+.journey-brand-ibm{background:#fff!important;border:1px solid #e3e9e0!important}
+.journey-brand-protiviti{background:#f3f5f1!important;border:1px solid #e3e9e0!important}
+.career-achievements{border-top-color:#dfe8db!important}
+.achievement-card{min-height:116px!important;padding:18px!important}
+.achievement-card strong{color:#527d35!important;font-size:25px!important}
+.achievement-card span{color:#2b3d30!important}
+.achievement-card small{color:#748176!important}
+
+/* Supporting sections and contact panel */
+.value-strip{border-top-color:#dfe8db!important}
+.value-icon,.cert-check,.edu-year{color:#628c43!important}
+.education-item{border-bottom-color:#e2e9de!important}
+.cert-list>div{color:#46564a!important}
+.contact-panel{background:linear-gradient(125deg,#eaf2e5 0%,#f8faf6 76%)!important;border:1px solid #dce8d4!important;border-radius:16px!important;box-shadow:0 14px 34px rgba(38,61,43,.07)!important}
+.contact-panel h2{color:#203027!important}
+.contact-copy{color:#59685e!important}
+.contact-links a{border-bottom-color:#dce6d8!important;color:#34483a!important}
+.contact-links a span,.contact-links a:hover{color:#527d35!important}
+.contact-email-profile img{border:2px solid #fff!important;box-shadow:0 2px 9px rgba(30,50,34,.16)!important}
+.footer{border-top-color:#dfe8db!important}
+.button-primary{background:#527d35!important;box-shadow:0 5px 13px rgba(82,125,53,.18)!important}
+.button-primary:hover{background:#456d2d!important}
+.button-quiet{background:rgba(255,255,255,.68)!important;border-color:#d9e3d4!important}
+.button-quiet:hover{background:#fff!important}
+.robot-caption,.robot-float{box-shadow:0 9px 24px rgba(35,55,39,.1)!important}
+.robot-caption{border-radius:10px!important}
+.robot-float{border-radius:9px!important}
+@media(max-width:680px){
+ .expertise-card{padding:23px!important}
+ .technology-wall{padding:21px!important}
+ .journey-company h3{font-size:15px!important}
+ .achievement-card{min-height:108px!important;padding:13px!important}
+ .achievement-card strong{font-size:22px!important}
+ .contact-panel{border-radius:13px!important}
+}
