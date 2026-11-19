@@ -115,6 +115,38 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 }
 
 
+
+/* Consistent logo frames across every company card */
+.company-summary .journey-brand{
+  box-sizing:border-box!important;
+  width:76px!important;
+  min-width:76px!important;
+  height:64px!important;
+  min-height:64px!important;
+  padding:9px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  overflow:hidden!important;
+}
+.company-summary .journey-brand img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:contain!important;
+}
+@media(max-width:680px){
+  .company-summary .journey-brand{
+    width:58px!important;
+    min-width:58px!important;
+    height:52px!important;
+    min-height:52px!important;
+    padding:7px!important;
+  }
+}
+
 /* Company-first experience cards with independent expand/collapse */
 .company-list{display:grid;gap:14px;margin-top:4px}
 .company-card{background:linear-gradient(145deg,#FFFFFF,#F7FBFD);border:1px solid #C8D9E6;border-radius:13px;box-shadow:0 7px 22px #173B590D;overflow:hidden}
