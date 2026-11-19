@@ -186,3 +186,13 @@
 .company-heading .company-mark{width:64px;height:52px;flex:0 0 64px;padding:5px;background:#fff;border:1px solid rgba(255,255,255,.25);border-radius:6px;overflow:hidden}
 .company-heading .company-mark img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;padding:0!important;opacity:1!important;visibility:visible!important}
 @media(max-width:680px){.company-heading .company-mark{width:52px;height:46px;flex-basis:52px}}
+
+
+/* Feature the uploaded profile photo in the top hero section */
+.hero-profile-stage{height:420px!important;width:350px!important;max-width:90%!important;flex:0 0 420px!important}
+.hero-profile-photo{position:relative;width:min(310px,88%);height:365px;overflow:hidden;border:1px solid rgba(185,243,106,.3);border-radius:160px 160px 12px 12px;background:#17221e;box-shadow:0 25px 70px rgba(0,0,0,.38),0 0 55px rgba(185,243,106,.09)}
+.hero-profile-photo:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,rgba(5,12,9,.35));pointer-events:none}
+.hero-profile-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.hero-profile-stage .robot-caption{bottom:0}
+@media(max-width:900px){.hero-profile-stage{height:395px!important;flex-basis:395px!important}.hero-profile-photo{height:340px}}
+@media(max-width:680px){.hero-profile-stage{height:350px!important;flex-basis:350px!important;width:100%!important;max-width:100%!important}.hero-profile-photo{height:305px;width:min(260px,78%)}}
