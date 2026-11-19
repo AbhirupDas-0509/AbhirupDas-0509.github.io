@@ -266,3 +266,34 @@
 .journey-company h3{margin:0}
 .journey-focus{display:none!important}
 @media(max-width:680px){.journey-logo{width:50px;height:34px;flex-basis:50px;padding:4px 6px}.journey-company{gap:8px}.journey-company h3{font-size:14px}}
+
+
+/* Professional Journey — clear vertical career timeline */
+.experience-section>.section-kicker{display:flex;align-items:center;gap:9px;margin-bottom:30px;letter-spacing:2px}
+.section-kicker-number{display:inline-flex;align-items:center;justify-content:center;width:29px;height:29px;border-radius:50%;background:rgba(185,243,106,.13);border:1px solid rgba(185,243,106,.35);color:var(--green);font:700 11px var(--display);letter-spacing:0}
+.section-kicker-divider{color:var(--soft);font-size:13px}
+.experience-section .section-title-line{margin-bottom:42px}
+.professional-journey{position:relative;padding:0 0 0 38px;margin-left:7px}
+.professional-journey:before{content:"";position:absolute;left:10px;top:9px;bottom:28px;width:1px;background:linear-gradient(to bottom,rgba(185,243,106,.75),rgba(185,243,106,.12))}
+.journey-entry{position:relative;padding:0 0 31px;margin:0 0 29px;border-bottom:1px solid var(--line)}
+.journey-entry:before{content:"";position:absolute;left:-34px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--green);border:3px solid var(--bg);box-shadow:0 0 0 1px rgba(185,243,106,.55),0 0 16px rgba(185,243,106,.2)}
+.journey-company{align-items:center;gap:11px;margin-bottom:14px}
+.journey-company .journey-number{font-size:13px;color:var(--soft);min-width:18px}
+.journey-logo{width:62px;height:40px;flex-basis:62px}
+.journey-company h3{font-size:17px}
+.journey-meta{margin-left:29px;margin-bottom:16px}
+.journey-entry h4{margin-left:29px;margin-bottom:15px}
+.journey-entry ul{margin-left:29px}
+.journey-entry:last-child{border-bottom:0;margin-bottom:0}
+.career-achievements{margin-left:45px}
+@media(max-width:680px){
+ .professional-journey{padding-left:29px;margin-left:2px}
+ .professional-journey:before{left:7px}
+ .journey-entry:before{left:-27px;width:10px;height:10px}
+ .journey-company{gap:8px}
+ .journey-company h3{font-size:14px}
+ .journey-logo{width:49px;height:33px;flex-basis:49px}
+ .journey-meta,.journey-entry h4,.journey-entry ul{margin-left:0}
+ .career-achievements{margin-left:0}
+ .experience-section .section-title-line{margin-bottom:30px}
+}
