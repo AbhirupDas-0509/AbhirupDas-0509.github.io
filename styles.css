@@ -196,3 +196,16 @@
 .hero-profile-stage .robot-caption{bottom:0}
 @media(max-width:900px){.hero-profile-stage{height:395px!important;flex-basis:395px!important}.hero-profile-photo{height:340px}}
 @media(max-width:680px){.hero-profile-stage{height:350px!important;flex-basis:350px!important;width:100%!important;max-width:100%!important}.hero-profile-photo{height:305px;width:min(260px,78%)}}
+
+
+/* Compact profile portrait in the hero — keep the focus on the introduction */
+.hero-profile-stage{height:auto!important;min-height:0!important;width:100%!important;max-width:100%!important;flex:0 0 auto!important;justify-content:center!important;gap:10px!important;margin:18px auto 4px!important}
+.hero-profile-photo{width:148px!important;height:148px!important;max-width:148px!important;border-radius:50%!important;border:2px solid rgba(185,243,106,.48)!important;box-shadow:0 12px 35px rgba(0,0,0,.3),0 0 28px rgba(185,243,106,.1)!important}
+.hero-profile-photo:after{display:none!important}
+.hero-profile-photo img{object-position:center 22%!important}
+.hero-profile-stage .robot-caption{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;backdrop-filter:none!important;gap:7px!important}
+.hero-profile-stage .robot-caption .caption-mark{font-size:16px!important}
+.hero-profile-stage .robot-caption strong{font-size:10px!important}
+.hero-profile-stage .robot-caption small{font-size:8px!important}
+@media(max-width:900px){.hero-profile-stage{height:auto!important;flex-basis:auto!important}.hero-profile-photo{width:138px!important;height:138px!important}}
+@media(max-width:680px){.hero-profile-stage{height:auto!important;flex-basis:auto!important;width:100%!important;margin:14px auto 8px!important}.hero-profile-photo{width:122px!important;height:122px!important}}
