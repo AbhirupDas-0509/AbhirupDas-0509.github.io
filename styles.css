@@ -134,3 +134,43 @@
  .robot-caption{bottom:0}
 }
 @media(max-width:390px){.robot-skill-chip{font-size:8px;gap:5px;padding:6px 5px}.robot-skill-chip b{width:19px;height:19px;flex-basis:19px}}
+
+/* Modern auto-rotating skill carousel below the hero robot */
+.robot-visual{min-height:620px;display:flex;flex-direction:column;justify-content:flex-start;gap:0;padding-top:0}
+.robot-stage{height:420px;width:350px;max-width:90%;flex:0 0 420px}
+.robot-visual .robot-orbit-one{top:25px}
+.robot-visual .robot-orbit-two{top:18px}
+.robot-caption{bottom:0}
+.robot-skill-panel{display:none!important}
+.skill-carousel{position:relative;z-index:5;width:min(100%,490px);margin:-1px auto 0;padding:15px 16px 12px;border:1px solid rgba(185,243,106,.22);border-radius:12px;background:linear-gradient(145deg,rgba(24,37,29,.96),rgba(12,20,16,.97));box-shadow:0 18px 42px rgba(0,0,0,.3),inset 0 1px rgba(255,255,255,.04);backdrop-filter:blur(18px)}
+.skill-carousel-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.skill-carousel-top>div{display:flex;flex-direction:column;gap:2px}
+.skill-carousel .robot-skill-heading{font:800 9px var(--display);letter-spacing:1.5px;color:var(--green)}
+.skill-carousel-subtitle{font-size:9px;color:#829188}
+.skill-count{font:700 10px var(--display);letter-spacing:1px;color:#87958b}
+.skill-carousel-items{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;min-height:75px}
+.skill-tile{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:10px 3px;border:1px solid rgba(221,239,223,.09);border-radius:8px;background:rgba(255,255,255,.035);color:#e9f0e9;animation:skill-enter .45s both;transition:transform .2s,border-color .2s,background .2s}
+.skill-tile:hover{transform:translateY(-3px);border-color:rgba(185,243,106,.4);background:rgba(185,243,106,.07)}
+.skill-tile b{width:29px;height:29px;display:grid;place-items:center;border-radius:8px;background:rgba(185,243,106,.12);color:var(--green);font:800 12px var(--display)}
+.skill-tile span{font:600 9px var(--display);text-align:center;line-height:1.25;white-space:normal}
+.skill-carousel-bottom{margin-top:12px}
+.skill-progress{height:2px;background:rgba(220,239,222,.1);border-radius:4px;overflow:hidden}
+.skill-progress span{display:block;height:100%;width:0;background:var(--green);border-radius:4px}
+.skill-carousel-bottom.is-running .skill-progress span{animation:skill-progress 4.8s linear forwards}
+.skill-carousel-controls{display:flex;align-items:center;justify-content:space-between;margin-top:9px;color:#87958b;font-size:9px}
+.skill-carousel-controls>div{display:flex;gap:5px}
+.skill-carousel-controls button{width:25px;height:25px;border-radius:50%;border:1px solid rgba(221,239,223,.16);background:rgba(255,255,255,.04);color:#e9f0e9;cursor:pointer;transition:all .2s}
+.skill-carousel-controls button:hover{border-color:var(--green);color:var(--green)}
+@keyframes skill-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes skill-progress{from{width:0}to{width:100%}}
+@media(max-width:900px){.robot-visual{min-height:590px}.robot-stage{height:395px;flex-basis:395px}.skill-carousel{width:min(100%,470px)}}
+@media(max-width:680px){
+ .robot-visual{height:auto;min-height:0;display:flex;flex-direction:column;gap:0;padding-top:0;margin-top:20px}
+ .robot-stage{height:350px;flex-basis:350px;width:100%;max-width:100%}
+ .skill-carousel{width:100%;margin:2px auto 0;padding:13px 11px 10px}
+ .skill-carousel-items{gap:5px;min-height:70px}
+ .skill-tile{padding:8px 2px;gap:6px}
+ .skill-tile b{width:26px;height:26px}
+ .skill-tile span{font-size:8px}
+}
+@media(prefers-reduced-motion:reduce){.skill-tile{animation:none}.skill-carousel-bottom.is-running .skill-progress span{animation:none;width:100%}}
