@@ -48,8 +48,8 @@ if ('IntersectionObserver' in window) {
   const prev = document.querySelector('#skill-prev');
   const next = document.querySelector('#skill-next');
   const groups = [
-    { title: 'AI & GENAI', label: 'AI, agents & LLM tools', items: [['Py','Python'],['✳','AI Agents'],['✦','GenAI'],['⛓','LangChain'],['⌘','LangGraph']] },
-    { title: 'CLAUDE & INTELLIGENT AUTOMATION', label: 'AI platform & enterprise automation', items: [['✴','Claude'],['U','UiPath'],['BP','Blue Prism'],['S','ServiceNow RPA'],['ϟ','Power Automate']] }
+    { title: 'AI & GENAI', label: 'Python · LLM frameworks · AI', items: [['Py','Python'],['⛓','LangChain'],['⌘','LangGraph'],['✴','Claude']] },
+    { title: 'INTELLIGENT AUTOMATION', label: 'Enterprise automation platforms', items: [['U','UiPath'],['BP','Blue Prism'],['S','ServiceNow RPA'],['ϟ','Power Automate']] }
   ];
   let active = 0;
   let timer;
