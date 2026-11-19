@@ -24,7 +24,7 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .orbit{border-color:#256A9A24!important}
 .robot-halo{background:radial-gradient(circle,#CDEBF0 0%,#E3F1F8 48%,transparent 72%)!important}
 .robot-orbit{border-color:#75C8D055!important}
-.robot-caption{background:#FFFFFFfffed!important;border:1px solid #C8D9E6!important;box-shadow:0 8px 24px #243b2815!important}
+.robot-caption{background:#FFFFFFED!important;border:1px solid #C8D9E6!important;box-shadow:0 8px 24px #243b2815!important}
 .robot-caption strong{color:#173B59!important}.robot-caption small{color:#668096!important}
 .robot-float{background:#FFFFFF!important;border:1px solid #C8D9E6!important;color:#214F70!important;box-shadow:0 8px 24px #243b2818!important}
 .robot-float b{color:var(--green)!important}
@@ -86,4 +86,30 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
  .technology-wall{padding:21px!important}
  .journey-company h3{font-size:15px!important}
  .contact-panel{border-radius:13px!important}
+}
+
+
+/* Expandable professional journey */
+.journey-details{margin-top:0}
+.journey-toggle{list-style:none;cursor:pointer;gap:24px;outline:none}
+.journey-toggle::-webkit-details-marker{display:none}
+.journey-toggle::marker{content:""}
+.journey-summary-copy{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;flex:1}
+.journey-summary-copy h2{margin:0}
+.journey-toggle-label{display:inline-flex;align-items:center;gap:10px;flex:none;padding:10px 14px;border:1px solid #B8D1E3;border-radius:8px;background:#FFFFFF;color:#256A9A;font-size:11px;font-weight:700;letter-spacing:.2px;transition:background .2s,border-color .2s}
+.journey-toggle:hover .journey-toggle-label{background:#EAF4F8;border-color:#75C8D0}
+.journey-toggle-close{display:none}
+.journey-details[open] .journey-toggle-open{display:none}
+.journey-details[open] .journey-toggle-close{display:inline}
+.journey-chevron{font-size:17px;line-height:1;transition:transform .2s;color:#48A8B8}
+.journey-details[open] .journey-chevron{transform:rotate(180deg)}
+.journey-details .professional-journey{padding-top:12px}
+.journey-details .career-achievements{margin-top:12px}
+.journey-brand-ibm{background:#FFFFFF!important;border-color:#D5E5EE!important}
+.journey-brand-protiviti{background:#EAF4F8!important;border-color:#C8D9E6!important}
+@media(max-width:680px){
+ .journey-toggle{align-items:flex-start;flex-direction:column}
+ .journey-summary-copy{width:100%;display:block}
+ .journey-summary-copy h2{margin-bottom:14px}
+ .journey-toggle-label{align-self:flex-start}
 }
