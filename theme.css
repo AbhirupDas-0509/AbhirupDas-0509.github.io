@@ -292,3 +292,43 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
   .credentials-layout{grid-template-columns:1fr!important;gap:32px!important}
   .cert-category .cert-list>div{font-size:12px!important}
 }
+
+
+/* Compact two-line hero headline, balanced with the robot illustration */
+.hero h1{
+  max-width:760px!important;
+  font-size:clamp(35px,3.75vw,49px)!important;
+  line-height:1.12!important;
+  letter-spacing:-2.1px!important;
+  text-wrap:balance!important;
+}
+.hero h1 em{white-space:normal!important}
+@media(max-width:900px){
+  .hero h1{font-size:clamp(34px,5vw,44px)!important;letter-spacing:-1.7px!important}
+}
+@media(max-width:680px){
+  .hero h1{font-size:clamp(31px,8.5vw,40px)!important;line-height:1.12!important;letter-spacing:-1.35px!important}
+}
+
+/* Education and certifications presented as one contained section panel */
+.credentials-panel{
+  margin-top:24px;
+  padding:34px 36px;
+  background:linear-gradient(145deg,#FFFFFF,#F4F9FC);
+  border:1px solid #C8D9E6;
+  border-radius:18px;
+  box-shadow:0 10px 30px #173B590D;
+}
+.credentials-panel .credentials-layout{margin:0!important}
+.credentials-panel .education-block,
+.credentials-panel .certification-block{min-width:0}
+.credentials-panel .certification-block h3{margin-top:0}
+@media(max-width:680px){
+  .credentials-panel{padding:23px 20px;margin-top:18px;border-radius:14px}
+}
+
+/* Robot accent lighting aligned with the site's blue and cyan palette */
+.hero-robot{filter:drop-shadow(0 16px 24px #173B5918)}
+.robot-halo{background:radial-gradient(circle,#CDEBF0 0%,#E3F1F8 48%,transparent 72%)!important}
+.robot-orbit{border-color:#75C8D066!important}
+.robot-caption .caption-mark{color:#256A9A!important}
