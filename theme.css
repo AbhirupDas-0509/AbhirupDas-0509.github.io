@@ -218,3 +218,77 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 @media(max-width:680px){
   .hero h1{font-size:clamp(36px,10.2vw,48px)!important;line-height:1.1!important;letter-spacing:-1.8px!important}
 }
+
+
+/* Recruiter-focused expertise grid and grouped credentials */
+.expertise-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:22px!important;
+  align-items:stretch;
+}
+.expertise-card{
+  min-height:300px!important;
+  display:flex;
+  flex-direction:column;
+  padding:27px 28px 28px!important;
+  border-radius:16px!important;
+  position:relative;
+}
+.expertise-card h3{
+  font-size:19px!important;
+  line-height:1.35!important;
+  min-height:2.7em;
+  letter-spacing:-.45px!important;
+}
+.expertise-card>p{
+  font-size:13px!important;
+  line-height:1.65!important;
+  margin:8px 0 18px!important;
+  min-height:3.3em;
+}
+.expertise-card .chip-list{margin-top:auto;gap:8px!important}
+.expertise-card .chip-list span{
+  font-size:11px!important;
+  padding:7px 11px!important;
+  background:#EFF6FA!important;
+  border:1px solid #D5E5EE!important;
+  color:#315D7B!important;
+}
+.expertise-card .card-symbol{color:#256A9A!important}
+.expertise-card .card-count{color:#668096!important}
+.credentials-layout{grid-template-columns:.78fr 1.22fr!important;gap:64px!important}
+.cert-category{margin:0 0 25px}
+.cert-category:last-child{margin-bottom:0}
+.cert-category h4{
+  margin:0 0 12px!important;
+  color:#49677F!important;
+  font:700 14px/1.4 var(--display)!important;
+}
+.cert-category .cert-list{
+  display:grid;
+  grid-template-columns:1fr!important;
+  gap:10px!important;
+}
+.cert-category .cert-list>div{
+  font-size:13px!important;
+  line-height:1.6!important;
+  color:#173B59!important;
+}
+.cert-category .cert-check{font-size:15px!important;color:#F07836!important;flex:none}
+.education-item{padding-left:18px;border-left:3px solid #F07836!important;border-bottom:0!important;margin:0 0 22px!important;padding-bottom:8px!important}
+.edu-year{font-size:13px!important;letter-spacing:0!important;color:#49677F!important}
+.education-item strong{font-size:16px!important;line-height:1.45}
+.education-item small{font-size:14px!important;color:#49677F!important}
+.credentials-layout h3{font-size:18px!important}
+@media(max-width:1000px){
+  .expertise-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important}
+  .expertise-card{min-height:285px!important}
+  .credentials-layout{gap:38px!important}
+}
+@media(max-width:680px){
+  .expertise-grid{grid-template-columns:1fr!important;gap:14px!important}
+  .expertise-card{min-height:0!important;padding:23px!important}
+  .expertise-card h3,.expertise-card>p{min-height:0}
+  .credentials-layout{grid-template-columns:1fr!important;gap:32px!important}
+  .cert-category .cert-list>div{font-size:12px!important}
+}
