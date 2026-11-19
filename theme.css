@@ -113,3 +113,47 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
  .journey-summary-copy h2{margin-bottom:14px}
  .journey-toggle-label{align-self:flex-start}
 }
+
+
+/* Company-first experience cards with independent expand/collapse */
+.company-list{display:grid;gap:14px;margin-top:4px}
+.company-card{background:linear-gradient(145deg,#FFFFFF,#F7FBFD);border:1px solid #C8D9E6;border-radius:13px;box-shadow:0 7px 22px #173B590D;overflow:hidden}
+.company-summary{display:flex;align-items:center;gap:20px;padding:22px 25px;cursor:pointer;list-style:none;min-height:112px}
+.company-summary::-webkit-details-marker{display:none}
+.company-summary::marker{content:""}
+.company-summary:focus-visible{outline:3px solid #75C8D0;outline-offset:-4px;border-radius:12px}
+.company-summary .journey-brand{width:76px;height:64px;flex:none;display:flex;align-items:center;justify-content:center;padding:10px;border-radius:9px}
+.company-summary .journey-brand img{display:block;max-width:100%;max-height:100%;object-fit:contain}
+.company-summary-main{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.company-summary-main strong{font:700 17px/1.35 var(--display);color:#173B59}
+.company-summary-main>span{font-size:12px;color:#256A9A;font-weight:700}
+.company-summary-main small{font-size:11px;color:#668096;line-height:1.5}
+.company-expand{display:flex;align-items:center;gap:10px;flex:none;padding:9px 12px;border:1px solid #B8D1E3;border-radius:8px;background:#FFFFFF;color:#256A9A;font-size:11px;font-weight:700}
+.company-hide{display:none}
+.company-expand b{font-size:17px;line-height:1;color:#48A8B8;transition:transform .2s}
+.company-card[open] .company-view{display:none}
+.company-card[open] .company-hide{display:inline}
+.company-card[open] .company-expand b{transform:rotate(180deg)}
+.company-card[open] .company-summary{background:#F0F7FA;border-bottom:1px solid #D5E5EE}
+.company-details{padding:18px 28px 22px 121px}
+.company-details ul{margin:0;padding-left:18px;color:#49677F;font-size:12px;line-height:1.85}
+.company-details li{padding:3px 0 3px 2px}
+.company-details li::marker{color:#256A9A}
+.company-details strong{color:#214F70}
+.company-role+.company-role{margin-top:22px;padding-top:20px;border-top:1px solid #D5E5EE}
+.company-role-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px}
+.company-role-heading h3{font:700 14px var(--display);color:#173B59;margin:0}
+.company-role-heading span{font-size:10px;color:#668096;white-space:nowrap}
+@media(max-width:680px){
+ .company-summary{gap:12px;padding:17px 14px;align-items:flex-start}
+ .company-summary .journey-brand{width:58px;height:52px;padding:7px}
+ .company-summary-main strong{font-size:14px}
+ .company-summary-main>span{font-size:10px}
+ .company-summary-main small{font-size:10px}
+ .company-expand{font-size:0;padding:8px;gap:2px}
+ .company-expand b{font-size:17px}
+ .company-details{padding:16px 17px 20px}
+ .company-details ul{font-size:11px}
+ .company-role-heading{display:block}
+ .company-role-heading span{display:block;margin-top:4px}
+}
