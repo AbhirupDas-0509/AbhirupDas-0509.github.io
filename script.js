@@ -85,15 +85,3 @@ if ('IntersectionObserver' in window) {
 })();
 
 
-/* Accessible company detail toggles */
-document.querySelectorAll('.company-card').forEach(card => {
-  const button = card.querySelector('.company-expand');
-  const panel = card.querySelector('.company-details');
-  if (!button || !panel) return;
-  button.addEventListener('click', () => {
-    const expanded = button.getAttribute('aria-expanded') === 'true';
-    button.setAttribute('aria-expanded', String(!expanded));
-    panel.hidden = expanded;
-    card.classList.toggle('is-expanded', !expanded);
-  });
-});
