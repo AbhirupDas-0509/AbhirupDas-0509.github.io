@@ -48,3 +48,8 @@
 @media(max-width:900px){.robot-stage{height:420px}.hero-robot{max-height:400px}.robot-orbit-one{width:390px}.robot-orbit-two{width:370px}}
 @media(max-width:680px){.robot-visual{width:100%;height:430px;margin-top:25px}.robot-stage{height:405px;width:330px;max-width:90%}.hero-robot{max-height:380px}.robot-orbit-one{width:340px;height:260px}.robot-orbit-two{width:330px;height:300px}.robot-python{left:-2px;top:55px}.robot-uipath{right:-5px;top:115px}.robot-ai{right:0;bottom:72px}.robot-sql{left:-3px;bottom:130px}.robot-caption{bottom:1px}}
 @media(prefers-reduced-motion:reduce){.hero-robot{animation:none}}
+
+/* Sharper company wordmarks in the career timeline */
+.ibm-mark{color:transparent;background:repeating-linear-gradient(to bottom,#1261a0 0 2px,transparent 2px 4px);-webkit-background-clip:text;background-clip:text;text-decoration:none;font-family:Georgia,serif;font-size:25px;letter-spacing:-2px}
+.protiviti-mark{font-family:var(--display);font-weight:800;font-style:normal;font-size:20px;letter-spacing:-1.6px;color:#24455e}
+.protiviti-mark span{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:#e99a3c;color:#fff;font-size:10px;margin:0 0 0 3px;align-self:center}
