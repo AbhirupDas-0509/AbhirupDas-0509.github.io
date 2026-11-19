@@ -328,3 +328,7 @@
 .journey-brand-protiviti img{padding:3px}
 .journey-brand-ibm{ text-decoration:none }
 @media(max-width:680px){.journey-brand{width:46px;height:31px;flex-basis:46px;padding:3px}.journey-company{gap:10px}}
+
+/* Protiviti logo: blend the JPG's white canvas into the dark timeline UI */
+.journey-brand-protiviti{background:transparent;border-color:rgba(255,255,255,.08);padding:2px}
+.journey-brand-protiviti img{mix-blend-mode:darken;object-fit:contain;padding:1px}
