@@ -44,7 +44,7 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .journey-entry strong{color:#214F70!important}
 .journey-entry li::marker{color:#256A9A!important}
 .journey-brand-ibm{background:#FFFFFF!important;border:1px solid #D7E4ED!important}
-.journey-brand-protiviti{background:#EDF4F8!important;border:1px solid #D7E4ED!important}
+.journey-brand-protiviti{background:#FFFFFF!important;border:1px solid #D7E4ED!important}
 .career-achievements{border-top-color:var(--line)!important}
 .expertise-card,.achievement-card,.technology-wall,.skill-carousel,.career-summary>div{
  background:linear-gradient(150deg,#FFFFFF,#F8FBFD)!important;border:1px solid #C8D9E6!important;
@@ -106,7 +106,7 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .journey-details .professional-journey{padding-top:12px}
 .journey-details .career-achievements{margin-top:12px}
 .journey-brand-ibm{background:#FFFFFF!important;border-color:#D5E5EE!important}
-.journey-brand-protiviti{background:#EAF4F8!important;border-color:#C8D9E6!important}
+.journey-brand-protiviti{background:#FFFFFF!important;border:1px solid #D7E4ED!important}
 @media(max-width:680px){
  .journey-toggle{align-items:flex-start;flex-direction:column}
  .journey-summary-copy{width:100%;display:block}
