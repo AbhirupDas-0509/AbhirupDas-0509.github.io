@@ -308,3 +308,14 @@
 .journey-entry:before{width:9px;height:9px;left:-33px;top:10px;background:var(--bg);border:2px solid var(--green);box-shadow:0 0 0 4px rgba(185,243,106,.08),0 0 12px rgba(185,243,106,.18)}
 .professional-journey:before{left:10px;width:1px;background:linear-gradient(to bottom,rgba(185,243,106,.55),rgba(185,243,106,.08))}
 @media(max-width:680px){.journey-logo{width:42px;height:29px;flex-basis:42px}.journey-company h3{font-size:14px}.journey-entry:before{left:-26px}}
+
+
+/* Final timeline branding: native text wordmarks that suit the dark theme */
+.journey-brand{display:inline-flex;align-items:center;justify-content:flex-start;flex:0 0 58px;width:58px;height:30px;background:transparent;border:0;padding:0;line-height:1}
+.journey-brand-ibm{font-family:Arial,sans-serif;font-size:24px;font-weight:800;letter-spacing:-1.8px;color:#f2f5f2;text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:var(--green);text-underline-offset:-7px}
+.journey-brand-protiviti{font-family:Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:-.7px;color:#e6ece7}
+.journey-company{gap:13px;align-items:center}
+.journey-company h3{font-size:17px;letter-spacing:-.2px}
+.journey-logo{display:none!important}
+.journey-entry:before{content:"";width:9px;height:9px;left:-33px;top:10px;background:var(--bg);border:2px solid var(--green);border-radius:50%;box-shadow:0 0 0 4px rgba(185,243,106,.08)}
+@media(max-width:680px){.journey-brand{flex-basis:49px;width:49px}.journey-brand-ibm{font-size:21px}.journey-brand-protiviti{font-size:12px}.journey-company h3{font-size:14px}.journey-entry:before{left:-26px}}
