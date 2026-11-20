@@ -570,3 +570,40 @@ p,li{ text-wrap:pretty }
  .achievement-card strong{font-size:22px!important}
  .contact-panel{border-radius:13px!important}
 }
+
+
+/* Align the career achievements block with the full company-card column */
+.experience-section .career-achievements{
+  width:100%!important;
+  max-width:100%!important;
+  margin-left:0!important;
+  margin-right:0!important;
+  box-sizing:border-box!important;
+}
+.experience-section .career-achievements h3,
+.experience-section .career-achievements .achievement-intro{
+  text-align:left!important;
+  margin-left:0!important;
+  margin-right:0!important;
+}
+.experience-section .achievement-grid{
+  width:100%!important;
+  margin-left:0!important;
+  margin-right:0!important;
+  align-items:stretch!important;
+}
+.experience-section .achievement-card{
+  box-sizing:border-box!important;
+  min-width:0!important;
+  min-height:126px!important;
+  align-items:flex-start!important;
+  justify-content:center!important;
+  text-align:left!important;
+  padding:18px 21px!important;
+}
+@media(max-width:680px){
+  .experience-section .achievement-card{
+    min-height:112px!important;
+    padding:15px 13px!important;
+  }
+}
