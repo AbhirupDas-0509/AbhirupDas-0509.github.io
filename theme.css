@@ -657,3 +657,66 @@ img,svg{max-width:100%}
 @media(max-width:680px){
   .company-expand{width:38px!important;min-width:38px!important;height:38px!important;min-height:38px!important}
 }
+
+
+/* Final verified experience disclosure control: label + plus/minus, never an arrow */
+.company-expand{
+  width:auto!important;
+  min-width:0!important;
+  height:42px!important;
+  min-height:42px!important;
+  padding:0 13px!important;
+  display:inline-flex!important;
+  flex-direction:row!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:11px!important;
+  font-size:11px!important;
+  white-space:nowrap!important;
+}
+.company-expand .company-view,
+.company-expand .company-hide{
+  display:inline!important;
+  font-size:11px!important;
+  line-height:1!important;
+  font-weight:700!important;
+}
+.company-card[open] .company-expand .company-view{display:none!important}
+.company-card:not([open]) .company-expand .company-hide{display:none!important}
+.company-expand b{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:16px!important;
+  height:20px!important;
+  flex:0 0 16px!important;
+  font-size:0!important;
+  line-height:1!important;
+  font-weight:500!important;
+  transform:none!important;
+}
+.company-expand b:before{
+  content:"+";
+  font-size:23px;
+  line-height:1;
+  color:#2878A8;
+}
+.company-card[open] .company-expand b:before{
+  content:"−";
+  font-size:25px;
+  color:#174D70;
+}
+.company-expand:hover{background:#EAF5FA!important}
+@media(max-width:680px){
+  .company-expand{width:auto!important;height:38px!important;min-height:38px!important;padding:0 10px!important;gap:7px!important}
+  .company-expand .company-view,.company-expand .company-hide{font-size:10px!important}
+}
+
+/* Keep robot caption centered between robot and toolkit panel */
+.hero-visual.robot-visual > .robot-caption{
+  position:relative!important;
+  left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;
+  transform:none!important;
+  align-self:center!important;
+  margin:0 auto!important;
+}
