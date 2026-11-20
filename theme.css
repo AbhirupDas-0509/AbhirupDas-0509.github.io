@@ -468,3 +468,96 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 @media(prefers-reduced-motion:reduce){
   .expertise-card,.achievement-card,.company-card,.expertise-card .chip-list span{transition:none!important}
 }
+
+
+/* End-to-end layout safeguards for consistent alignment at every viewport */
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{overflow-x:clip}
+main section[id]{scroll-margin-top:88px}
+img,svg{max-width:100%}
+.hero-copy,.hero-visual,.expertise-card,.achievement-card,
+.credentials-layout>*,.company-summary-main,.company-details,
+.contact-panel>div{min-width:0}
+.expertise-grid,.achievement-grid,.credentials-layout{width:100%;min-width:0}
+.expertise-card h3,.expertise-card>p,.achievement-card span,
+.achievement-card small,.company-summary-main strong,
+.company-summary-main small,.company-details li,
+.cert-category .cert-list>div,.education-item strong,
+.education-item small,.contact-links a{
+  overflow-wrap:break-word;
+  word-break:normal;
+}
+.expertise-card{height:100%}
+.expertise-card .chip-list{align-content:flex-start}
+.expertise-card .chip-list span{max-width:100%;white-space:normal}
+.credentials-panel{width:100%;box-sizing:border-box}
+.credentials-panel .credentials-heading{
+  display:block!important;
+  margin:0 0 28px!important;
+}
+.credentials-panel .credentials-heading h2{
+  margin:0!important;
+  font-size:clamp(32px,3.8vw,46px)!important;
+  line-height:1.12!important;
+  letter-spacing:-1.8px!important;
+}
+.credentials-panel .credentials-layout{
+  display:grid;
+  grid-template-columns:minmax(220px,.78fr) minmax(0,1.22fr)!important;
+  align-items:start;
+}
+.credentials-panel .cert-list>div{
+  display:grid!important;
+  grid-template-columns:16px minmax(0,1fr);
+  align-items:start;
+  min-width:0;
+}
+.credentials-panel .cert-check{line-height:1.55}
+.company-summary{min-width:0}
+.company-summary-main{overflow-wrap:break-word}
+.company-expand{white-space:nowrap}
+.company-details{overflow-wrap:break-word}
+.contact-links a{min-width:0;gap:10px}
+.contact-email-text{min-width:0;overflow-wrap:anywhere}
+@media(max-width:1000px){
+  .credentials-panel .credentials-layout{
+    grid-template-columns:minmax(190px,.72fr) minmax(0,1.28fr)!important;
+    gap:28px!important;
+  }
+  .company-details{padding-left:28px}
+}
+@media(max-width:760px){
+  .company-summary{gap:14px;padding:18px}
+  .company-summary .journey-brand{width:64px!important;min-width:64px!important;height:56px!important;min-height:56px!important}
+  .company-details{padding:17px 20px}
+}
+@media(max-width:680px){
+  .achievement-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .achievement-card{min-width:0;padding:15px 9px!important}
+  .achievement-card strong{font-size:25px!important}
+  .achievement-card span{font-size:11px!important;line-height:1.35}
+  .achievement-card small{font-size:9px!important;line-height:1.4}
+  .credentials-panel .credentials-heading{margin-bottom:23px!important}
+  .credentials-panel .credentials-heading h2{font-size:34px!important}
+  .credentials-panel .credentials-layout{grid-template-columns:minmax(0,1fr)!important;gap:25px!important}
+  .credentials-panel .cert-category{padding:14px!important}
+  .company-summary{gap:10px;padding:15px 12px}
+  .company-summary .journey-brand{width:52px!important;min-width:52px!important;height:48px!important;min-height:48px!important}
+  .company-expand{padding:7px!important}
+  .company-details{padding:15px 16px}
+  .hero-actions{flex-wrap:wrap}
+  .hero-meta{align-items:flex-start}
+  .contact-panel{min-width:0}
+  .contact-links .contact-email{font-size:clamp(12px,3.4vw,15px)!important}
+}
+@media(max-width:390px){
+  .section-wrap,.site-header{width:calc(100% - 30px)!important}
+  .hero h1{font-size:30px!important;letter-spacing:-1.2px!important}
+  .hero-meta{gap:9px}
+  .meta-number{font-size:13px!important}
+  .meta-label{font-size:8px!important}
+  .credentials-panel{padding:19px 15px!important}
+  .company-summary-main strong{font-size:12px!important}
+  .company-summary-main>span,.company-summary-main small{font-size:9px!important}
+  .company-expand{padding:6px!important}
+}
