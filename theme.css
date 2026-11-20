@@ -332,3 +332,139 @@ body{background:linear-gradient(180deg,#F3F8FC 0%,#DCEAF5 100%)!important;-webki
 .robot-halo{background:radial-gradient(circle,#CDEBF0 0%,#E3F1F8 48%,transparent 72%)!important}
 .robot-orbit{border-color:#75C8D066!important}
 .robot-caption .caption-mark{color:#256A9A!important}
+
+
+/* Subtle dimensional card treatment — polished, not overly playful */
+.expertise-card,
+.achievement-card,
+.company-card,
+.credentials-panel,
+.skill-carousel,
+.robot-caption{
+  isolation:isolate;
+  overflow:hidden;
+  position:relative;
+  transform-style:preserve-3d;
+}
+.expertise-card,
+.achievement-card,
+.company-card{
+  background:
+    radial-gradient(ellipse at 100% 0%,rgba(117,200,208,.19),transparent 43%),
+    linear-gradient(145deg,#FFFFFF 0%,#F5FAFD 58%,#EAF4F9 100%)!important;
+  border:1px solid rgba(164,196,216,.78)!important;
+  box-shadow:
+    0 2px 3px rgba(23,59,89,.025),
+    0 12px 26px rgba(23,59,89,.075),
+    inset 0 1px 0 rgba(255,255,255,.96)!important;
+  transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease!important;
+}
+.expertise-card:before,
+.achievement-card:before,
+.company-card:before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  width:190px;height:190px;
+  top:-112px;right:-76px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(117,200,208,.24) 0%,rgba(117,200,208,.08) 44%,transparent 72%);
+  pointer-events:none;
+}
+.expertise-card:after,
+.achievement-card:after{
+  content:"";
+  position:absolute;
+  left:18px;right:18px;top:0;height:2px;
+  border-radius:0 0 4px 4px;
+  background:linear-gradient(90deg,transparent,#75C8D0 28%,#4C91C2 72%,transparent);
+  opacity:.75;
+  pointer-events:none;
+}
+.expertise-card:hover,
+.achievement-card:hover,
+.company-card:hover{
+  transform:translateY(-5px) perspective(900px) rotateX(1deg);
+  border-color:#9CCBD5!important;
+  box-shadow:0 5px 9px rgba(23,59,89,.035),0 20px 38px rgba(23,59,89,.12),inset 0 1px 0 #fff!important;
+}
+.expertise-card .card-symbol{
+  width:42px;height:42px;
+  display:grid;place-items:center;
+  border-radius:13px;
+  background:linear-gradient(145deg,#E5F5F8,#D9EAF5);
+  border:1px solid #D1E6EF;
+  box-shadow:0 5px 12px rgba(37,106,154,.09),inset 0 1px 0 #fff;
+  font-size:20px;
+}
+.expertise-card .chip-list span{
+  box-shadow:0 2px 5px rgba(23,59,89,.035);
+  transition:transform .2s ease,background .2s ease;
+}
+.expertise-card .chip-list span:hover{transform:translateY(-2px);background:#E4F3F7!important}
+.credentials-panel{
+  background:
+    radial-gradient(ellipse at 0% 0%,rgba(117,200,208,.18),transparent 38%),
+    radial-gradient(ellipse at 100% 100%,rgba(76,145,194,.12),transparent 42%),
+    linear-gradient(135deg,#FFFFFF 0%,#F4F9FC 54%,#EAF4F9 100%)!important;
+  border:1px solid #BFD7E5!important;
+  box-shadow:0 3px 7px rgba(23,59,89,.035),0 18px 42px rgba(23,59,89,.085),inset 0 1px 0 #fff!important;
+}
+.credentials-panel:before{
+  content:"";
+  position:absolute;inset:0;
+  background-image:radial-gradient(rgba(37,106,154,.10) .7px,transparent .7px);
+  background-size:19px 19px;
+  opacity:.22;pointer-events:none;z-index:-1;
+}
+.credentials-panel .education-item{
+  position:relative;
+  padding:16px 16px 16px 19px!important;
+  border:1px solid #D8E7EF!important;
+  border-left:3px solid #F07836!important;
+  border-radius:11px;
+  background:linear-gradient(120deg,rgba(255,255,255,.94),rgba(239,247,251,.9));
+  box-shadow:0 5px 14px rgba(23,59,89,.045),inset 0 1px 0 #fff;
+}
+.credentials-panel .cert-category{
+  padding:15px 17px 16px;
+  border:1px solid rgba(207,224,235,.9);
+  border-radius:12px;
+  background:linear-gradient(135deg,rgba(255,255,255,.88),rgba(239,247,251,.72));
+  box-shadow:0 4px 12px rgba(23,59,89,.035),inset 0 1px 0 #fff;
+}
+.credentials-panel .cert-category h4{
+  display:flex;align-items:center;gap:9px;
+}
+.credentials-panel .cert-category h4:before{
+  content:"";
+  width:7px;height:7px;flex:none;border-radius:50%;
+  background:#48A8B8;box-shadow:0 0 0 4px rgba(72,168,184,.12);
+}
+.credentials-panel .cert-list>div{
+  padding:3px 0;
+}
+.company-card{border-radius:15px!important}
+.company-card[open]{box-shadow:0 15px 32px rgba(23,59,89,.10)!important}
+.company-summary{position:relative;z-index:1}
+.company-summary .journey-brand{
+  border-radius:12px!important;
+  box-shadow:0 5px 13px rgba(23,59,89,.08),inset 0 1px 0 #fff;
+}
+.achievement-card{border-radius:14px!important;padding:20px!important}
+.achievement-card strong{font-size:30px!important;letter-spacing:-1px}
+.skill-carousel{
+  background:
+    radial-gradient(ellipse at 100% 0%,rgba(117,200,208,.22),transparent 48%),
+    linear-gradient(145deg,#FFFFFF,#EFF6FA)!important;
+  box-shadow:0 12px 30px rgba(23,59,89,.10),inset 0 1px 0 #fff!important;
+}
+.robot-caption{
+  box-shadow:0 10px 26px rgba(23,59,89,.13),inset 0 1px 0 #fff!important;
+}
+@media(hover:none){
+  .expertise-card:hover,.achievement-card:hover,.company-card:hover{transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .expertise-card,.achievement-card,.company-card,.expertise-card .chip-list span{transition:none!important}
+}
