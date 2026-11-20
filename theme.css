@@ -590,3 +590,35 @@ img,svg{max-width:100%}
 .expertise-card .card-symbol-4{color:#2878A8!important}
 .expertise-card .card-symbol-5{color:#2878A8!important}
 .expertise-card .card-symbol-6{color:#2878A8!important}
+
+
+/* Center the robot caption directly between the illustration and skill panel */
+.hero-visual.robot-visual > .robot-caption{
+  position:relative!important;
+  left:auto!important;
+  right:auto!important;
+  bottom:auto!important;
+  top:auto!important;
+  transform:none!important;
+  align-self:center!important;
+  display:flex!important;
+  width:max-content!important;
+  max-width:calc(100% - 24px)!important;
+  box-sizing:border-box!important;
+  margin: -2px auto 0!important;
+  justify-content:center!important;
+  text-align:left!important;
+  z-index:6!important;
+}
+.hero-visual.robot-visual > .skill-carousel{
+  align-self:center!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+@media(max-width:680px){
+  .hero-visual.robot-visual > .robot-caption{
+    margin:0 auto 0!important;
+    padding:8px 12px!important;
+    max-width:calc(100% - 16px)!important;
+  }
+}
