@@ -745,3 +745,23 @@ img,svg{max-width:100%}
     margin:0 auto!important;
   }
 }
+
+
+/* Recruiter-friendly career highlights: grouped by story, not a flat metric wall */
+.career-achievements{margin-top:58px}
+.achievement-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:27px}
+.achievement-heading h3{margin:0 0 8px!important;font:800 clamp(24px,2.7vw,32px)/1.2 'Manrope',sans-serif!important;letter-spacing:-.8px;color:#173B59}
+.achievement-heading .achievement-intro{max-width:720px;margin:0!important;color:#668096;font-size:14px;line-height:1.65}
+.achievement-heading-note{flex:none;padding:9px 13px;border:1px solid #CDE3EE;border-radius:999px;background:#F1F8FB;color:#2878A8;font-size:10px;font-weight:800;letter-spacing:1px}
+.achievement-group{margin-top:27px}
+.achievement-group>h4{display:flex;align-items:center;gap:11px;margin:0 0 14px!important;color:#315D7B;font:700 15px/1.4 'Manrope',sans-serif;letter-spacing:.1px}
+.achievement-group-icon{display:grid;place-items:center;width:32px;height:32px;flex:none;border-radius:10px;background:linear-gradient(145deg,#EAF6FA,#D9EBF5);border:1px solid #CDE3EE;color:#2878A8}
+.achievement-group-icon svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.achievement-group .achievement-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.achievement-group .achievement-card{min-height:112px;padding:18px 20px!important;display:flex;flex-direction:column;justify-content:center;gap:3px}
+.achievement-group .achievement-card strong{font-size:28px!important;line-height:1.15;letter-spacing:-.8px}
+.achievement-group .achievement-card span{font-size:13px;font-weight:700;color:#173B59}
+.achievement-group .achievement-card small{font-size:11px;line-height:1.5;color:#668096}
+@media(min-width:1050px){.achievement-group .achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.achievement-group:nth-of-type(3) .achievement-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.achievement-group:nth-of-type(4) .achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){.achievement-heading{align-items:flex-start;flex-direction:column;gap:12px}.achievement-heading-note{font-size:9px}.achievement-group .achievement-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:420px){.achievement-group .achievement-grid{grid-template-columns:1fr!important}.achievement-group .achievement-card{min-height:96px}}
