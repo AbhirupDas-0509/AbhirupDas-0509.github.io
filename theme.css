@@ -561,3 +561,32 @@ img,svg{max-width:100%}
   .company-summary-main>span,.company-summary-main small{font-size:9px!important}
   .company-expand{padding:6px!important}
 }
+
+
+/* Consistent, meaningful line icons for technical expertise cards */
+.expertise-card .card-symbol{
+  display:grid!important;
+  place-items:center!important;
+  width:46px!important;
+  height:46px!important;
+  border-radius:14px!important;
+  background:linear-gradient(145deg,#EAF6FA,#D9EBF5)!important;
+  border:1px solid #CDE3EE!important;
+  box-shadow:0 6px 14px rgba(37,106,154,.10),inset 0 1px 0 #fff!important;
+  color:#2878A8!important;
+}
+.expertise-card .card-symbol svg{
+  display:block;
+  width:25px;
+  height:25px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.65;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.expertise-card .card-symbol-1 svg{width:27px;height:27px}
+.expertise-card .card-symbol-3{color:#387DA8!important}
+.expertise-card .card-symbol-4{color:#2878A8!important}
+.expertise-card .card-symbol-5{color:#2878A8!important}
+.expertise-card .card-symbol-6{color:#2878A8!important}
